@@ -17,4 +17,8 @@
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtUsuario;
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtContrasena;
 - (IBAction)actionBtnIngresar:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
+@property (weak, nonatomic) IBOutlet UIImageView *img1;
+@property (weak, nonatomic) IBOutlet UIImageView *img2;
+@property (weak, nonatomic) IBOutlet UIImageView *img3;
 @end

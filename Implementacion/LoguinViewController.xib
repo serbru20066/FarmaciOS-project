@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -7,6 +7,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoguinViewController">
             <connections>
                 <outlet property="btnIngresar" destination="ei6-BH-glI" id="b5P-bG-yNe"/>
+                <outlet property="img1" destination="5vd-er-YR2" id="Ccr-Tt-j8o"/>
+                <outlet property="img2" destination="gGY-4Z-oyo" id="4m1-lM-NOZ"/>
+                <outlet property="img3" destination="FVJ-re-7kL" id="Zuk-ni-4YK"/>
+                <outlet property="logo" destination="yi5-3a-07l" id="lST-CK-9qQ"/>
                 <outlet property="txtContrasena" destination="xoe-bH-hox" id="ZrO-dx-g1l"/>
                 <outlet property="txtUsuario" destination="6EU-Ut-xoq" id="u29-Le-LZt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -17,20 +21,20 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_textbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="FVJ-re-7kL">
-                    <rect key="frame" x="51" y="239" width="228" height="90"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_textbox.png" id="FVJ-re-7kL">
+                    <rect key="frame" x="351" y="239" width="228" height="90"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user_icon_default_filled.png" translatesAutoresizingMaskIntoConstraints="NO" id="5vd-er-YR2">
-                    <rect key="frame" x="58" y="249" width="27" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_icon_default_filled.png" id="5vd-er-YR2">
+                    <rect key="frame" x="360" y="250" width="20" height="23"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="password_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="gGY-4Z-oyo">
-                    <rect key="frame" x="51" y="287" width="41" height="35"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password_icon.png" id="gGY-4Z-oyo">
+                    <rect key="frame" x="353" y="293" width="34" height="28"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Usuario" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6EU-Ut-xoq" customClass="UITextField_Extension">
-                    <rect key="frame" x="99" y="250" width="166" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Usuario" minimumFontSize="17" id="6EU-Ut-xoq" customClass="UITextField_Extension">
+                    <rect key="frame" x="399" y="250" width="166" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -39,8 +43,8 @@
                         <outlet property="delegate" destination="-1" id="ctL-4Z-J3f"/>
                     </connections>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xoe-bH-hox" customClass="UITextField_Extension">
-                    <rect key="frame" x="99" y="293" width="166" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" minimumFontSize="17" id="xoe-bH-hox" customClass="UITextField_Extension">
+                    <rect key="frame" x="399" y="293" width="166" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -49,12 +53,12 @@
                         <outlet property="delegate" destination="-1" id="KVn-6v-hnc"/>
                     </connections>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yi5-3a-07l">
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" id="yi5-3a-07l">
                     <rect key="frame" x="53" y="96" width="214" height="58"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ei6-BH-glI">
-                    <rect key="frame" x="53" y="370" width="226" height="36"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ei6-BH-glI">
+                    <rect key="frame" x="-233" y="370" width="226" height="36"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="login_ingresar.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,11 +67,11 @@
                         <action selector="actionBtnIngresar:" destination="-1" eventType="touchUpInside" id="Z9f-lv-SB8"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_separator.png" translatesAutoresizingMaskIntoConstraints="NO" id="p0J-PU-DHx">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_separator.png" id="p0J-PU-DHx">
                     <rect key="frame" x="0.0" y="497" width="320" height="13"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lOB-K2-ttD">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2.jpg" id="lOB-K2-ttD">
                     <rect key="frame" x="20" y="507" width="169" height="56"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
