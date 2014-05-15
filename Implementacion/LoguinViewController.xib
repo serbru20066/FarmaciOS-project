@@ -35,6 +35,9 @@
                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ctL-4Z-J3f"/>
+                    </connections>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xoe-bH-hox" customClass="UITextField_Extension">
                     <rect key="frame" x="99" y="293" width="166" height="30"/>
@@ -42,6 +45,9 @@
                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="KVn-6v-hnc"/>
+                    </connections>
                 </textField>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yi5-3a-07l">
                     <rect key="frame" x="53" y="96" width="214" height="58"/>

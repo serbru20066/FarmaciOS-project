@@ -31,6 +31,11 @@
                              forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     self.navigationController.navigationBar.translucent = YES;
+    
+    //tap recognizer
+    _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
+    _tapGesture.enabled = NO;
+    [self.view addGestureRecognizer:_tapGesture];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,4 +46,26 @@
 
 - (IBAction)actionBtnIngresar:(id)sender {
 }
+
+#pragma mark  TextField Delegates
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [textField resignFirstResponder];
+    return YES;
+}
+-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    _tapGesture.enabled = YES;
+    return YES;
+}
+#pragma mark  Utiles
+-(void)hideKeyboard
+{
+    [_txtUsuario  resignFirstResponder];
+    [_txtContrasena resignFirstResponder];
+
+    
+    _tapGesture.enabled = NO;
+}
+
 @end

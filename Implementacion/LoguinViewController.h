@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "UITextField_Extension.h"
 
-@interface LoguinViewController : UIViewController
+@interface LoguinViewController : UIViewController<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *btnIngresar;
+
+ @property (strong, nonatomic) UITapGestureRecognizer *tapGesture;
 
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtUsuario;
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtContrasena;
