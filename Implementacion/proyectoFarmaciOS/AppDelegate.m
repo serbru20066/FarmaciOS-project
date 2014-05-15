@@ -7,13 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import "LoguinViewController.h"
+#import "DemoLeftMenuViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[LoguinViewController alloc] init]];
+    DemoLeftMenuViewController *leftMenuViewController = [[DemoLeftMenuViewController alloc] init];
+    
+    
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController
+                                                                    leftMenuViewController:leftMenuViewController
+                                                                   rightMenuViewController:nil];
+    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"dark-planingwood.png"];
+    sideMenuViewController.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
+    sideMenuViewController.delegate = self;
+    sideMenuViewController.contentViewShadowColor = [UIColor blackColor];
+    sideMenuViewController.contentViewShadowOffset = CGSizeMake(0, 0);
+    sideMenuViewController.contentViewShadowOpacity = 0.6;
+    sideMenuViewController.contentViewShadowRadius = 12;
+    sideMenuViewController.contentViewShadowEnabled = YES;
+    self.window.rootViewController = sideMenuViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
