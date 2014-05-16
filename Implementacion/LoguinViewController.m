@@ -37,7 +37,12 @@
     _tapGesture.enabled = NO;
     [self.view addGestureRecognizer:_tapGesture];
     
-    
+    [self.btnIngresar setFrame:CGRectMake(-253, 370, 226, 36)];
+        [self.img3 setFrame:CGRectMake(351, 239, 228, 90)];
+        [self.img1 setFrame:CGRectMake(360, 250, 20, 23)];
+        [self.img2 setFrame:CGRectMake(353, 293, 34, 28)];
+        [self.txtUsuario setFrame:CGRectMake(399, 250, 166, 30)];
+        [self.txtContrasena setFrame:CGRectMake(399, 293, 166, 30)];
     
     [UIView animateWithDuration:0.8 delay:0.5 options:UIViewAnimationOptionCurveLinear animations:^{
         
