@@ -46,7 +46,7 @@
         self.logo.alpha = 0;
         self.logo1.alpha = 0;
     
-    [UIView animateWithDuration:0.8 delay:0.5 options:UIViewAnimationOptionCurveLinear animations:^{
+    [UIView animateWithDuration:0.9 delay:0.5 options:UIViewAnimationOptionCurveLinear animations:^{
         
         
 
@@ -61,7 +61,7 @@
     } completion:^(BOOL finished) {
         
         
-        [UIView animateWithDuration:0.9 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
+        [UIView animateWithDuration:1 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
             
             
             self.logo.alpha = 1.0;
