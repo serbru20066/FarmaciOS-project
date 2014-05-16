@@ -9,8 +9,8 @@
                 <outlet property="btnIngresar" destination="ei6-BH-glI" id="b5P-bG-yNe"/>
                 <outlet property="img1" destination="5vd-er-YR2" id="Ccr-Tt-j8o"/>
                 <outlet property="img2" destination="gGY-4Z-oyo" id="4m1-lM-NOZ"/>
-                <outlet property="img3" destination="FVJ-re-7kL" id="Zuk-ni-4YK"/>
                 <outlet property="logo" destination="yi5-3a-07l" id="lST-CK-9qQ"/>
+                <outlet property="logo1" destination="lOB-K2-ttD" id="wQs-Cd-OdH"/>
                 <outlet property="txtContrasena" destination="xoe-bH-hox" id="ZrO-dx-g1l"/>
                 <outlet property="txtUsuario" destination="6EU-Ut-xoq" id="u29-Le-LZt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -53,7 +53,7 @@
                         <outlet property="delegate" destination="-1" id="KVn-6v-hnc"/>
                     </connections>
                 </textField>
-                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" id="yi5-3a-07l">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" id="yi5-3a-07l">
                     <rect key="frame" x="53" y="96" width="214" height="58"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
