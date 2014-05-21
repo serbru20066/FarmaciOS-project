@@ -9,8 +9,8 @@
                 <outlet property="btnIngresar" destination="ei6-BH-glI" id="b5P-bG-yNe"/>
                 <outlet property="img1" destination="5vd-er-YR2" id="Ccr-Tt-j8o"/>
                 <outlet property="img2" destination="gGY-4Z-oyo" id="4m1-lM-NOZ"/>
+                <outlet property="imgFondoTexts" destination="FVJ-re-7kL" id="KpE-mU-jKO"/>
                 <outlet property="logo" destination="yi5-3a-07l" id="lST-CK-9qQ"/>
-                <outlet property="logo1" destination="lOB-K2-ttD" id="wQs-Cd-OdH"/>
                 <outlet property="txtContrasena" destination="xoe-bH-hox" id="ZrO-dx-g1l"/>
                 <outlet property="txtUsuario" destination="6EU-Ut-xoq" id="u29-Le-LZt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -21,7 +21,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_textbox.png" id="FVJ-re-7kL">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="QMQ-pY-Kpb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuadro solo.png" id="FVJ-re-7kL">
                     <rect key="frame" x="51" y="239" width="228" height="90"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -51,48 +55,31 @@
                         <outlet property="delegate" destination="-1" id="KVn-6v-hnc"/>
                     </connections>
                 </textField>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" id="yi5-3a-07l">
-                    <rect key="frame" x="53" y="96" width="214" height="58"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logosolo.png" id="yi5-3a-07l">
+                    <rect key="frame" x="0.0" y="45" width="320" height="72"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ei6-BH-glI">
-                    <rect key="frame" x="53" y="370" width="226" height="36"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ei6-BH-glI">
+                    <rect key="frame" x="51" y="350" width="228" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" backgroundImage="login_ingresar.png">
+                    <state key="normal" backgroundImage="ingresarrr.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="actionBtnIngresar:" destination="-1" eventType="touchUpInside" id="Z9f-lv-SB8"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_separator.png" id="p0J-PU-DHx">
-                    <rect key="frame" x="0.0" y="497" width="320" height="13"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2.jpg" id="lOB-K2-ttD">
-                    <rect key="frame" x="53" y="507" width="169" height="56"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tOz-KQ-Nle">
-                    <rect key="frame" x="207" y="524" width="93" height="63"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="facebookicon.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="facebookicon.png" width="38" height="63"/>
-        <image name="login_ingresar.png" width="271" height="36"/>
-        <image name="login_separator.png" width="64" height="2"/>
-        <image name="login_textbox.png" width="271" height="101"/>
-        <image name="logo.jpg" width="200" height="54"/>
-        <image name="logo2.jpg" width="200" height="59"/>
+        <image name="background.png" width="640" height="1136"/>
+        <image name="cuadro solo.png" width="542" height="204"/>
+        <image name="ingresarrr.png" width="542" height="72"/>
+        <image name="logosolo.png" width="640" height="111"/>
         <image name="password_icon.png" width="256" height="256"/>
         <image name="user_icon_default_filled.png" width="100" height="100"/>
     </resources>

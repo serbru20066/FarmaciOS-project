@@ -14,6 +14,7 @@
 
  @property (strong, nonatomic) UITapGestureRecognizer *tapGesture;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgFondoTexts;
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtUsuario;
 @property (weak, nonatomic) IBOutlet UITextField_Extension *txtContrasena;
 - (IBAction)actionBtnIngresar:(id)sender;
@@ -22,4 +23,5 @@
 @property (weak, nonatomic) IBOutlet UIImageView *img2;
 @property (weak, nonatomic) IBOutlet UIImageView *img3;
 @property (weak, nonatomic) IBOutlet UIImageView *logo1;
+@property (weak, nonatomic) IBOutlet UIButton *btnFB;
 @end

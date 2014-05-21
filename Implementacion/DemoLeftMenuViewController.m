@@ -102,7 +102,7 @@
     }
    
     NSArray *titles = @[ @"Farmacos", @"Locales", @"Administrador", @"Log Out", @""];
-    NSArray *images = @[ @"Drug-icon", @"drugstoreicon", @"logouticon", @"logout_icon"];
+    NSArray *images = @[ @"drugs", @"drugstoreicon", @"logouticon", @"logout"];
     cell.textLabel.text = titles[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];
     
