@@ -38,13 +38,14 @@
     _tapGesture.enabled = NO;
     [self.view addGestureRecognizer:_tapGesture];
     
+        [self.logo setFrame:CGRectMake(0, -65, 320, 72)];
         [self.btnIngresar setFrame:CGRectMake(-253, 370, 226, 36)];
         [self.img3 setFrame:CGRectMake(351, 239, 228, 90)];
         [self.img1 setFrame:CGRectMake(360, 250, 20, 23)];
         [self.img2 setFrame:CGRectMake(353, 293, 34, 28)];
         [self.txtUsuario setFrame:CGRectMake(399, 250, 166, 30)];
         [self.txtContrasena setFrame:CGRectMake(399, 293, 166, 30)];
-        self.logo.alpha = 0;
+
         self.logo1.alpha = 0;
     self.imgFondoTexts.alpha =0;
         [self.btnFB setFrame:CGRectMake(360, 520, 93, 63)];
@@ -60,6 +61,7 @@
         [self.img2 setFrame:CGRectMake(53, 293, 34, 28)];
         [self.txtUsuario setFrame:CGRectMake(99, 250, 166, 30)];
         [self.txtContrasena setFrame:CGRectMake(99, 293, 166, 30)];
+        [self.logo setFrame:CGRectMake(0, 45, 320, 72)];
         
 
     } completion:^(BOOL finished) {
@@ -68,8 +70,7 @@
         [UIView animateWithDuration:1 delay:0.0 options:UIViewAnimationOptionCurveLinear animations:^{
             
             self.imgFondoTexts.alpha =1.0;
-            self.logo.alpha = 1.0;
-             self.logo1.alpha = 1.0;
+            self.logo1.alpha = 1.0;
             
             
         } completion:^(BOOL finished) {
