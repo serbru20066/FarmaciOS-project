@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "UITextField_Extension.h"
+#import "MBProgressHUD.h"
 
 @interface LoguinViewController : UIViewController<UITextFieldDelegate>
+{
+    NSMutableDictionary *usuArr;
+    MBProgressHUD *HUD;
+
+}
 @property (weak, nonatomic) IBOutlet UIButton *btnIngresar;
 
  @property (strong, nonatomic) UITapGestureRecognizer *tapGesture;

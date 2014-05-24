@@ -7,6 +7,7 @@
 //
 
 #import "LoguinViewController.h"
+#import "AFNetworking.h"
 
 @interface LoguinViewController ()
 
@@ -85,6 +86,15 @@
 }
 
 - (IBAction)actionBtnIngresar:(id)sender {
+    
+    //Progress
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+	[self.view addSubview:HUD];
+	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
+    
+    
+    
+    [self PostServ];
 }
 
 #pragma mark  TextField Delegates
@@ -98,15 +108,83 @@
     _tapGesture.enabled = YES;
     return YES;
 }
+
 #pragma mark  Utiles
 -(void)hideKeyboard
 {
     [_txtUsuario  resignFirstResponder];
     [_txtContrasena resignFirstResponder];
-
-    
     _tapGesture.enabled = NO;
 }
 
+- (void)myTask {
+    sleep(10);
+}
+
+
+#pragma Post Services Consume
+
+-(void)PostServ
+{
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    
+    
+    NSDictionary *params = @ {@"Usuario" :_txtUsuario.text, @"Contrasena" :_txtContrasena.text};
+    
+    
+    [manager POST:@"http://farmaciosservices.somee.com/serviciofarmacia.svc/Loguin" parameters:params
+          success:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+         NSLog(@"JSON: %@", responseObject);
+         
+         usuArr=[responseObject objectForKey:@"LoguinResult"];
+         
+         NSLog(@"JSON: %@", usuArr);
+         
+         if ([[usuArr objectForKey:@"Usuario"] isEqual:[NSNull null]])
+         {
+             [HUD removeFromSuperview];
+             
+             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Resultado"
+                                                           message:@"Usuario y/o contraseña erroneos"
+                                                          delegate:self
+                                                 cancelButtonTitle:@"OK"
+                                                 otherButtonTitles:nil];
+             [alert show];
+             
+             _txtContrasena.text=@"";
+             _txtUsuario.text=@"";
+             
+         [_txtUsuario becomeFirstResponder];
+         }
+         
+         else
+         {
+             
+             [HUD removeFromSuperview];
+             
+             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Resultado"
+                                                           message:@"Exito en el Logueo"
+                                                          delegate:self
+                                                 cancelButtonTitle:@"OK"
+                                                 otherButtonTitles:nil];
+             [alert show];}
+
+//            _txtContrasena.text=@"";
+//            _txtUsuario.text=@"";
+         //[_txtContrasena becomeFirstResponder];
+         
+     }
+     
+    
+     
+          failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         NSLog(@"Error: %@", error);
+     }];
+    
+}
 
 @end
