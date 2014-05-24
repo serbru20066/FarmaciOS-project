@@ -27,6 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    _txtContrasena.secureTextEntry = YES;
     //Cabecera
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                              forBarMetrics:UIBarMetricsDefault];
@@ -54,7 +57,7 @@
         
         
 
-        [self.btnIngresar setFrame:CGRectMake(53, 370, 226, 36)];
+        [self.btnIngresar setFrame:CGRectMake(43, 370, 226, 36)];
         [self.img3 setFrame:CGRectMake(51, 239, 228, 90)];
         [self.img1 setFrame:CGRectMake(60, 250, 20, 23)];
         [self.btnFB setFrame:CGRectMake(230, 520, 93, 63)];
