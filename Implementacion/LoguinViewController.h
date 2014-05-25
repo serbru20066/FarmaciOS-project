@@ -11,10 +11,11 @@
 #import "MBProgressHUD.h"
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface LoguinViewController : UIViewController<UITextFieldDelegate>
+@interface LoguinViewController : UIViewController<UITextFieldDelegate,FBLoginViewDelegate>
 {
     NSMutableDictionary *usuArr;
     MBProgressHUD *HUD;
+    
 
 }
 @property (weak, nonatomic) IBOutlet UIButton *btnIngresar;

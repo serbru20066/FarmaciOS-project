@@ -8,6 +8,7 @@
 
 #import "LoguinViewController.h"
 #import "AFNetworking.h"
+#import "InfoUsuarioViewController.h"
 
 @interface LoguinViewController ()
 
@@ -29,8 +30,34 @@
     [super viewDidLoad];
     
     
+    //Facebook button
+    
+    FBLoginView *loginView =[[FBLoginView alloc] init];
+    
+    // Align the button in the center horizontally
+    loginView.frame = CGRectMake(42, 440, 230, 43);
+    loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+    [loginView setLoginBehavior:FBSessionLoginBehaviorForcingWebView];
+    loginView.delegate = self;
+    
+    for (id obj in loginView.subviews)
+    {
+
+        if ([obj isKindOfClass:[UILabel class]])
+        {
+            UILabel * loginLabel =  obj;
+            loginLabel.text = @"ó Ingrese con facebook";
+            loginLabel.textAlignment = UITextAlignmentCenter;
+            loginLabel.frame = CGRectMake(0, 0, 250, 43);
+        }
+    }
+    
+
+    [self.view addSubview:loginView];
+    
+    
     _txtContrasena.secureTextEntry = YES;
-    //Cabecera
+    //Cabecera escondida
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                              forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
@@ -141,7 +168,7 @@
 }
 
 
-#pragma Post Services Consume
+#pragma mark Post Services Consume
 
 -(void)PostServ
 {
@@ -205,5 +232,44 @@
      }];
     
 }
+
+
+#pragma FBButon Delegados
+- (void)loginViewFetchedUserInfo:(FBLoginView *)loginView
+                            user:(id<FBGraphUser>)user {
+    
+    
+    NSLog(@"%@",[user objectForKey:@"name"]);
+    NSLog(@"%@",[user objectForKey:@"gender"]);
+    NSLog(@"%@",[user objectForKey:@"id"]);
+    NSLog(@"%@",[user objectForKey:@"link"]);
+    NSLog(@"%@",[user objectForKey:@"username"]);
+    
+    
+    
+    NSLog(@"%@",[[user objectForKey:@"hometown"] objectForKey:@"name"]);
+    
+    
+    //Guardar datos en el NSUserDefault
+    
+    NSString *ide = user.id;
+    NSString *nom= [user objectForKey:@"name"];
+    NSString *corr= [user objectForKey:@"email"];
+    [[NSUserDefaults standardUserDefaults] setObject:ide forKey:@"fbid"];
+    [[NSUserDefaults standardUserDefaults] setObject:nom forKey:@"fbname"];
+    [[NSUserDefaults standardUserDefaults] setObject:corr forKey:@"fbcorr"];
+
+}
+
+- (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
+    
+    
+    InfoUsuarioViewController *ivc = [[InfoUsuarioViewController alloc] init];
+    
+    [self.navigationController pushViewController:ivc animated:NO];
+    
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
 
 @end
