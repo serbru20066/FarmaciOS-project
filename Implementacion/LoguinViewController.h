@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UITextField_Extension.h"
 #import "MBProgressHUD.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface LoguinViewController : UIViewController<UITextFieldDelegate>
 {

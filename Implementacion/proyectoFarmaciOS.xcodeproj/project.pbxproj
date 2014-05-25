@@ -66,6 +66,7 @@
 		1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */; };
 		1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */; };
 		1597EFF41931B21800C3A35F /* Logo2White.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF31931B21800C3A35F /* Logo2White.png */; };
+		1597EFF61931B60500C3A35F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1597EFF51931B60500C3A35F /* FacebookSDK.framework */; };
 		15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */; };
 		15AD4CF8192D452900971947 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF7192D452900971947 /* logout.png */; };
 		15AD4CFA192D473100971947 /* drugs.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF9192D473100971947 /* drugs.png */; };
@@ -171,6 +172,7 @@
 		1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasbackg.jpg; sourceTree = "<group>"; };
 		1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasmenuback.jpg; sourceTree = "<group>"; };
 		1597EFF31931B21800C3A35F /* Logo2White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2White.png; sourceTree = "<group>"; };
+		1597EFF51931B60500C3A35F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFarmacios.png; sourceTree = "<group>"; };
 		15AD4CF7192D452900971947 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		15AD4CF9192D473100971947 /* drugs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugs.png; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				1595EA4519240E2A0067BE62 /* CoreGraphics.framework in Frameworks */,
 				1595EA4719240E2A0067BE62 /* UIKit.framework in Frameworks */,
 				1595EA4319240E2A0067BE62 /* Foundation.framework in Frameworks */,
+				1597EFF61931B60500C3A35F /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +355,7 @@
 		1595EA7E19241C3E0067BE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1597EFF51931B60500C3A35F /* FacebookSDK.framework */,
 				7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */,
 				7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */,
 				1595EA7F19241C4D0067BE62 /* AFNetworking */,
@@ -688,6 +692,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bruno/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
@@ -704,6 +712,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bruno/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
