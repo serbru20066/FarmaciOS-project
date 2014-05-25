@@ -41,7 +41,7 @@
     _tapGesture.enabled = NO;
     [self.view addGestureRecognizer:_tapGesture];
     
-        [self.logo setFrame:CGRectMake(0, -65, 320, 72)];
+        [self.logo setFrame:CGRectMake(27, -65, 258, 72)];
         [self.btnIngresar setFrame:CGRectMake(-253, 370, 226, 36)];
         [self.img3 setFrame:CGRectMake(351, 239, 228, 90)];
         [self.img1 setFrame:CGRectMake(360, 250, 20, 23)];
@@ -64,7 +64,7 @@
         [self.img2 setFrame:CGRectMake(53, 293, 34, 28)];
         [self.txtUsuario setFrame:CGRectMake(99, 250, 166, 30)];
         [self.txtContrasena setFrame:CGRectMake(99, 293, 166, 30)];
-        [self.logo setFrame:CGRectMake(0, 45, 320, 72)];
+        [self.logo setFrame:CGRectMake(27, 103, 258, 72)];
         
 
     } completion:^(BOOL finished) {

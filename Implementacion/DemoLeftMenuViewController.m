@@ -104,6 +104,8 @@
     NSArray *titles = @[ @"Farmacos", @"Locales", @" Administrador", @"Log Out", @""];
     NSArray *images = @[ @"drugs", @"drugstoreicon", @"logouticon", @"logout"];
     cell.textLabel.text = titles[indexPath.row];
+    cell.textLabel.textColor =[UIColor blackColor];
+    cell.textLabel.font = [UIFont italicSystemFontOfSize:18.0f];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];
     
     return cell;

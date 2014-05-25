@@ -220,8 +220,8 @@
         [self.view addGestureRecognizer:panGestureRecognizer];
     }
     
-    UIImageView *imv=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logosolo"]];
-    imv.frame =CGRectMake(20, 80, 200, 50);
+    UIImageView *imv=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo2.png"]];
+    imv.frame =CGRectMake(20, 80, 200, 60);
     [self.backgroundImageView addSubview:imv];
     
     

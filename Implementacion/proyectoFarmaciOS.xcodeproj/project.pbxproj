@@ -53,7 +53,6 @@
 		1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAC819243E530067BE62 /* login_ingresar@2x.png */; };
 		1595EACD19243E530067BE62 /* login_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAC919243E530067BE62 /* login_separator.png */; };
 		1595EACE19243E530067BE62 /* login_separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EACA19243E530067BE62 /* login_separator@2x.png */; };
-		1595EAD0192441240067BE62 /* logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1595EACF192441240067BE62 /* logo2.jpg */; };
 		1595EAD2192442250067BE62 /* Drug-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAD1192442250067BE62 /* Drug-icon.png */; };
 		1595EAD71924424D0067BE62 /* drugstoreicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAD31924424D0067BE62 /* drugstoreicon.png */; };
 		1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAD41924424D0067BE62 /* farmacoicon.png */; };
@@ -61,7 +60,12 @@
 		1595EADA1924424D0067BE62 /* logouticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAD61924424D0067BE62 /* logouticon.png */; };
 		1595EADD192442E70067BE62 /* logout_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EADB192442E70067BE62 /* logout_icon.png */; };
 		1595EADE192442E70067BE62 /* logout_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EADC192442E70067BE62 /* logout_icon@2x.png */; };
-		159D1EE8192D3779005984BA /* darkmetal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159D1EE7192D3779005984BA /* darkmetal.jpg */; };
+		1597EFEA1931A86600C3A35F /* Logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFE91931A86600C3A35F /* Logo2.png */; };
+		1597EFEC1931AA2600C3A35F /* menuback.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFEB1931AA2600C3A35F /* menuback.png */; };
+		1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFED1931AD3600C3A35F /* textureBack.jpg */; };
+		1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */; };
+		1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */; };
+		1597EFF41931B21800C3A35F /* Logo2White.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF31931B21800C3A35F /* Logo2White.png */; };
 		15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */; };
 		15AD4CF8192D452900971947 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF7192D452900971947 /* logout.png */; };
 		15AD4CFA192D473100971947 /* drugs.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF9192D473100971947 /* drugs.png */; };
@@ -154,7 +158,6 @@
 		1595EAC819243E530067BE62 /* login_ingresar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_ingresar@2x.png"; sourceTree = "<group>"; };
 		1595EAC919243E530067BE62 /* login_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_separator.png; sourceTree = "<group>"; };
 		1595EACA19243E530067BE62 /* login_separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_separator@2x.png"; sourceTree = "<group>"; };
-		1595EACF192441240067BE62 /* logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo2.jpg; sourceTree = "<group>"; };
 		1595EAD1192442250067BE62 /* Drug-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drug-icon.png"; sourceTree = "<group>"; };
 		1595EAD31924424D0067BE62 /* drugstoreicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugstoreicon.png; sourceTree = "<group>"; };
 		1595EAD41924424D0067BE62 /* farmacoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = farmacoicon.png; sourceTree = "<group>"; };
@@ -162,7 +165,12 @@
 		1595EAD61924424D0067BE62 /* logouticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logouticon.png; sourceTree = "<group>"; };
 		1595EADB192442E70067BE62 /* logout_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout_icon.png; sourceTree = "<group>"; };
 		1595EADC192442E70067BE62 /* logout_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout_icon@2x.png"; sourceTree = "<group>"; };
-		159D1EE7192D3779005984BA /* darkmetal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darkmetal.jpg; sourceTree = "<group>"; };
+		1597EFE91931A86600C3A35F /* Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2.png; sourceTree = "<group>"; };
+		1597EFEB1931AA2600C3A35F /* menuback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuback.png; sourceTree = "<group>"; };
+		1597EFED1931AD3600C3A35F /* textureBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textureBack.jpg; sourceTree = "<group>"; };
+		1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasbackg.jpg; sourceTree = "<group>"; };
+		1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasmenuback.jpg; sourceTree = "<group>"; };
+		1597EFF31931B21800C3A35F /* Logo2White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2White.png; sourceTree = "<group>"; };
 		15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFarmacios.png; sourceTree = "<group>"; };
 		15AD4CF7192D452900971947 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		15AD4CF9192D473100971947 /* drugs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugs.png; sourceTree = "<group>"; };
@@ -281,11 +289,16 @@
 		1595EA7619241AC30067BE62 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				1597EFF31931B21800C3A35F /* Logo2White.png */,
+				1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */,
+				1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */,
+				1597EFED1931AD3600C3A35F /* textureBack.jpg */,
+				1597EFEB1931AA2600C3A35F /* menuback.png */,
+				1597EFE91931A86600C3A35F /* Logo2.png */,
 				7FE2BFEE19311C64003754B7 /* background.jpg */,
 				15AD4CF7192D452900971947 /* logout.png */,
 				15AD4CF9192D473100971947 /* drugs.png */,
 				15AD4CEA192D435700971947 /* Loguin y Splash */,
-				159D1EE7192D3779005984BA /* darkmetal.jpg */,
 				15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */,
 				15AFC0AD192590B800B1488D /* facebookicon@2x.png */,
 				1595EADB192442E70067BE62 /* logout_icon.png */,
@@ -295,7 +308,6 @@
 				1595EAD51924424D0067BE62 /* loginicon.png */,
 				1595EAD61924424D0067BE62 /* logouticon.png */,
 				1595EAD1192442250067BE62 /* Drug-icon.png */,
-				1595EACF192441240067BE62 /* logo2.jpg */,
 				1595EAC719243E530067BE62 /* login_ingresar.png */,
 				1595EAC819243E530067BE62 /* login_ingresar@2x.png */,
 				1595EAC919243E530067BE62 /* login_separator.png */,
@@ -484,9 +496,11 @@
 				1595EACB19243E530067BE62 /* login_ingresar.png in Resources */,
 				1595EAD71924424D0067BE62 /* drugstoreicon.png in Resources */,
 				1595EA4D19240E2A0067BE62 /* InfoPlist.strings in Resources */,
+				1597EFF41931B21800C3A35F /* Logo2White.png in Resources */,
 				1595EABE192436E00067BE62 /* user_icon_default_filled@2x.png in Resources */,
 				1595EAAF192433990067BE62 /* login_textbox.png in Resources */,
 				7FE2BFEF19311C64003754B7 /* background.jpg in Resources */,
+				1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */,
 				15AD4D06192D4A4100971947 /* logo con cuadro.png in Resources */,
 				1595EA75192415D50067BE62 /* LoguinViewController.xib in Resources */,
 				1595EAB9192436C90067BE62 /* password_icon.png in Resources */,
@@ -496,17 +510,19 @@
 				1595EAD91924424D0067BE62 /* loginicon.png in Resources */,
 				15AD4D04192D4A4100971947 /* fondo negro splashscreen.png in Resources */,
 				1595EABD192436E00067BE62 /* user_icon_default_filled.png in Resources */,
+				1597EFEC1931AA2600C3A35F /* menuback.png in Resources */,
 				1595EAB0192433990067BE62 /* login_textbox@2x.png in Resources */,
 				15AD4D02192D4A4100971947 /* background.png in Resources */,
 				1595EAB4192434910067BE62 /* general_bg@2x.png in Resources */,
 				1595EAB3192434910067BE62 /* general_bg.png in Resources */,
-				159D1EE8192D3779005984BA /* darkmetal.jpg in Resources */,
 				1595EADD192442E70067BE62 /* logout_icon.png in Resources */,
+				1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */,
 				1595EAAA192426B90067BE62 /* menuBackground@2x.jpg in Resources */,
 				1595EAA619241D1E0067BE62 /* darkblueblur.jpg in Resources */,
 				1595EADE192442E70067BE62 /* logout_icon@2x.png in Resources */,
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
 				15AD4D05192D4A4100971947 /* ingresarrr.png in Resources */,
+				1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */,
 				1595EACD19243E530067BE62 /* login_separator.png in Resources */,
 				1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */,
 				1595EAA9192426B90067BE62 /* menuBackground.jpg in Resources */,
@@ -514,11 +530,11 @@
 				15AD4D08192D4A4100971947 /* screenlaunchebrunoOriginal.png in Resources */,
 				15AD4D03192D4A4100971947 /* cuadro solo.png in Resources */,
 				15AD4CF8192D452900971947 /* logout.png in Resources */,
-				1595EAD0192441240067BE62 /* logo2.jpg in Resources */,
 				15AFC0AE192590B800B1488D /* facebookicon@2x.png in Resources */,
 				1595EA5519240E2A0067BE62 /* Images.xcassets in Resources */,
 				1595EAD2192442250067BE62 /* Drug-icon.png in Resources */,
 				1595EAC619243D450067BE62 /* logo.jpg in Resources */,
+				1597EFEA1931A86600C3A35F /* Logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,7 +692,7 @@
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "32B525C3-BDC8-44F2-9386-D16B318DFFDC";
+				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -692,7 +708,7 @@
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "32B525C3-BDC8-44F2-9386-D16B318DFFDC";
+				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
