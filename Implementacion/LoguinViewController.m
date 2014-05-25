@@ -27,6 +27,8 @@
 
 - (void)viewDidLoad
 {
+   
+    
     [super viewDidLoad];
     
     
@@ -47,7 +49,7 @@
         {
             UILabel * loginLabel =  obj;
             loginLabel.text = @"ó Ingrese con facebook";
-            loginLabel.textAlignment = UITextAlignmentCenter;
+            
             loginLabel.frame = CGRectMake(0, 0, 250, 43);
         }
     }

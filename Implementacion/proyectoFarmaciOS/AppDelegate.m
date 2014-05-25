@@ -10,6 +10,7 @@
 #import "LoguinViewController.h"
 #import "DemoLeftMenuViewController.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -18,7 +19,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[LoguinViewController alloc] init]];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[InfoUsuarioViewController alloc] init]];
     DemoLeftMenuViewController *leftMenuViewController = [[DemoLeftMenuViewController alloc] init];
     
     
