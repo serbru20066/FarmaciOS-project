@@ -3,13 +3,14 @@
 //  proyectoFarmaciOS
 //
 //  Created by Alvaro Herrera on 25/05/14.
-//  Copyright (c) 2014 Bruno Cardenas. All rights reserved.
+//  Copyright (c) 2014 Alvaro Herrera. All rights reserved.
 //
 
 #import "FarmaciasVC.h"
 #import "FarmaciasCell.h"
 #import "AFNetworking.h"
 #import "Farmacia.h"
+#import "LocalesVC.h"
 
 @interface FarmaciasVC ()
 {
@@ -95,8 +96,14 @@
 {
     NSString * idf =  ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).IdFarmacia;
     NSLog(@"%@",idf);
+    
+    LocalesVC *lvc = [[LocalesVC alloc]initWithNibName:@"LocalesVC" bundle:nil];
+    [self.navigationController pushViewController:lvc animated:YES];
+    
+    [[NSUserDefaults standardUserDefaults] setObject:idf forKey:@"idFarmacia"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
-#pragma mark -
+
 #pragma mark UITableView Datasource
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -160,7 +167,7 @@
     
     cell.nombre.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).NomFarmacia;
     cell.fechafundacion.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).FechaFundacion;
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 

@@ -82,6 +82,15 @@
 		15C4977119328D950073578E /* general_top_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C4976F19328D950073578E /* general_top_button.png */; };
 		15C4977219328D950073578E /* general_top_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C4977019328D950073578E /* general_top_button@2x.png */; };
 		2329B8A1193629EC001DCCF7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2329B8A0193629EC001DCCF7 /* FacebookSDK.framework */; };
+		2329B8A519362EBE001DCCF7 /* LocalesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329B8A319362EBE001DCCF7 /* LocalesVC.m */; };
+		2329B8A619362EBE001DCCF7 /* LocalesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2329B8A419362EBE001DCCF7 /* LocalesVC.xib */; };
+		2329B8A9193632E1001DCCF7 /* LocalesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329B8A8193632E1001DCCF7 /* LocalesCell.m */; };
+		2329B8AB193632F3001DCCF7 /* LocalesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2329B8AA193632F3001DCCF7 /* LocalesCell.xib */; };
+		2329B8AE193637FD001DCCF7 /* Local.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329B8AD193637FD001DCCF7 /* Local.m */; };
+		2329B8B019363D3C001DCCF7 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2329B8AF19363D3C001DCCF7 /* backButton.png */; };
+		2329B8B419364078001DCCF7 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329B8B219364078001DCCF7 /* MapVC.m */; };
+		2329B8B519364078001DCCF7 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2329B8B319364078001DCCF7 /* MapVC.xib */; };
+		2329B8B719364410001DCCF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2329B8B619364410001DCCF7 /* MapKit.framework */; };
 		72A0EFBB1932706100998ADE /* FarmaciasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFB91932706100998ADE /* FarmaciasVC.m */; };
 		72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFBA1932706100998ADE /* FarmaciasVC.xib */; };
 		72A0EFC21932807D00998ADE /* FarmaciasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFC11932807D00998ADE /* FarmaciasCell.m */; };
@@ -198,6 +207,19 @@
 		15C4976F19328D950073578E /* general_top_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = general_top_button.png; sourceTree = "<group>"; };
 		15C4977019328D950073578E /* general_top_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_top_button@2x.png"; sourceTree = "<group>"; };
 		2329B8A0193629EC001DCCF7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		2329B8A219362EBE001DCCF7 /* LocalesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesVC.h; sourceTree = "<group>"; };
+		2329B8A319362EBE001DCCF7 /* LocalesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesVC.m; sourceTree = "<group>"; };
+		2329B8A419362EBE001DCCF7 /* LocalesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalesVC.xib; sourceTree = "<group>"; };
+		2329B8A7193632E1001DCCF7 /* LocalesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesCell.h; sourceTree = "<group>"; };
+		2329B8A8193632E1001DCCF7 /* LocalesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesCell.m; sourceTree = "<group>"; };
+		2329B8AA193632F3001DCCF7 /* LocalesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalesCell.xib; sourceTree = "<group>"; };
+		2329B8AC193637FD001DCCF7 /* Local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Local.h; sourceTree = "<group>"; };
+		2329B8AD193637FD001DCCF7 /* Local.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Local.m; sourceTree = "<group>"; };
+		2329B8AF19363D3C001DCCF7 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = ../backButton.png; sourceTree = "<group>"; };
+		2329B8B119364078001DCCF7 /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		2329B8B219364078001DCCF7 /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		2329B8B319364078001DCCF7 /* MapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		2329B8B619364410001DCCF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		72A0EFB81932706100998ADE /* FarmaciasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarmaciasVC.h; sourceTree = "<group>"; };
 		72A0EFB91932706100998ADE /* FarmaciasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarmaciasVC.m; sourceTree = "<group>"; };
 		72A0EFBA1932706100998ADE /* FarmaciasVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmaciasVC.xib; sourceTree = "<group>"; };
@@ -216,6 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2329B8B719364410001DCCF7 /* MapKit.framework in Frameworks */,
 				1595EA4519240E2A0067BE62 /* CoreGraphics.framework in Frameworks */,
 				2329B8A1193629EC001DCCF7 /* FacebookSDK.framework in Frameworks */,
 				1595EA4719240E2A0067BE62 /* UIKit.framework in Frameworks */,
@@ -318,6 +341,7 @@
 			children = (
 				15C4976F19328D950073578E /* general_top_button.png */,
 				15C4977019328D950073578E /* general_top_button@2x.png */,
+				2329B8AF19363D3C001DCCF7 /* backButton.png */,
 				1597EFF31931B21800C3A35F /* Logo2White.png */,
 				1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */,
 				1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */,
@@ -362,6 +386,9 @@
 		1595EA7919241AD40067BE62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2329B8B319364078001DCCF7 /* MapVC.xib */,
+				2329B8AA193632F3001DCCF7 /* LocalesCell.xib */,
+				2329B8A419362EBE001DCCF7 /* LocalesVC.xib */,
 				72A0EFC31932808D00998ADE /* FarmaciasCell.xib */,
 				15C4976C193288180073578E /* InfoUsuarioViewController.xib */,
 				1595EA73192415D50067BE62 /* LoguinViewController.xib */,
@@ -373,6 +400,12 @@
 		1595EA7A19241ADD0067BE62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2329B8B119364078001DCCF7 /* MapVC.h */,
+				2329B8B219364078001DCCF7 /* MapVC.m */,
+				2329B8A7193632E1001DCCF7 /* LocalesCell.h */,
+				2329B8A8193632E1001DCCF7 /* LocalesCell.m */,
+				2329B8A219362EBE001DCCF7 /* LocalesVC.h */,
+				2329B8A319362EBE001DCCF7 /* LocalesVC.m */,
 				72A0EFC01932807D00998ADE /* FarmaciasCell.h */,
 				72A0EFC11932807D00998ADE /* FarmaciasCell.m */,
 				72A0EFB81932706100998ADE /* FarmaciasVC.h */,
@@ -390,6 +423,7 @@
 		1595EA7E19241C3E0067BE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2329B8B619364410001DCCF7 /* MapKit.framework */,
 				7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */,
 				7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */,
 				1595EA7F19241C4D0067BE62 /* AFNetworking */,
@@ -455,6 +489,8 @@
 		72C62E3F1935604B001735AA /* Entidades */ = {
 			isa = PBXGroup;
 			children = (
+				2329B8AC193637FD001DCCF7 /* Local.h */,
+				2329B8AD193637FD001DCCF7 /* Local.m */,
 				72C62E3C19355BF4001735AA /* Farmacia.h */,
 				72C62E3D19355BF4001735AA /* Farmacia.m */,
 			);
@@ -540,6 +576,7 @@
 				1595EACE19243E530067BE62 /* login_separator@2x.png in Resources */,
 				15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */,
 				1595EAC0192438A90067BE62 /* logoback.png in Resources */,
+				2329B8B019363D3C001DCCF7 /* backButton.png in Resources */,
 				1595EACB19243E530067BE62 /* login_ingresar.png in Resources */,
 				1595EAD71924424D0067BE62 /* drugstoreicon.png in Resources */,
 				1595EA4D19240E2A0067BE62 /* InfoPlist.strings in Resources */,
@@ -550,6 +587,7 @@
 				1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */,
 				15AD4D06192D4A4100971947 /* logo con cuadro.png in Resources */,
 				1595EA75192415D50067BE62 /* LoguinViewController.xib in Resources */,
+				2329B8A619362EBE001DCCF7 /* LocalesVC.xib in Resources */,
 				1595EAB9192436C90067BE62 /* password_icon.png in Resources */,
 				1595EADA1924424D0067BE62 /* logouticon.png in Resources */,
 				15AD4D07192D4A4100971947 /* logosolo.png in Resources */,
@@ -567,6 +605,7 @@
 				15C4976E193288180073578E /* InfoUsuarioViewController.xib in Resources */,
 				1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */,
 				1595EAAA192426B90067BE62 /* menuBackground@2x.jpg in Resources */,
+				2329B8B519364078001DCCF7 /* MapVC.xib in Resources */,
 				1595EAA619241D1E0067BE62 /* darkblueblur.jpg in Resources */,
 				1595EADE192442E70067BE62 /* logout_icon@2x.png in Resources */,
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
@@ -576,6 +615,7 @@
 				1595EACD19243E530067BE62 /* login_separator.png in Resources */,
 				1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */,
 				1595EAA9192426B90067BE62 /* menuBackground.jpg in Resources */,
+				2329B8AB193632F3001DCCF7 /* LocalesCell.xib in Resources */,
 				1595EABA192436C90067BE62 /* password_icon@2x.png in Resources */,
 				15AD4D08192D4A4100971947 /* screenlaunchebrunoOriginal.png in Resources */,
 				15AD4D03192D4A4100971947 /* cuadro solo.png in Resources */,
@@ -621,9 +661,13 @@
 				1595EA9B19241C4D0067BE62 /* AFHTTPSessionManager.m in Sources */,
 				1595EA9C19241C4D0067BE62 /* AFNetworkReachabilityManager.m in Sources */,
 				1595EAA019241C4D0067BE62 /* AFURLResponseSerialization.m in Sources */,
+				2329B8A519362EBE001DCCF7 /* LocalesVC.m in Sources */,
 				1595EAA119241C4D0067BE62 /* AFURLSessionManager.m in Sources */,
 				7FAFA4BE1930FBEC005DAF8C /* MBProgressHUD.m in Sources */,
+				2329B8A9193632E1001DCCF7 /* LocalesCell.m in Sources */,
 				1595EA7D19241C290067BE62 /* DemoLeftMenuViewController.m in Sources */,
+				2329B8B419364078001DCCF7 /* MapVC.m in Sources */,
+				2329B8AE193637FD001DCCF7 /* Local.m in Sources */,
 				1595EAA319241C4D0067BE62 /* RESideMenu.m in Sources */,
 				1595EAC419243A5F0067BE62 /* UITextField_Extension.m in Sources */,
 				1595EAA219241C4D0067BE62 /* RECommonFunctions.m in Sources */,
