@@ -8,7 +8,7 @@
 
 #import "DemoLeftMenuViewController.h"
 #import "LoguinViewController.h"
-
+#import "LocalesVC.h"
 
 
 @interface DemoLeftMenuViewController ()
@@ -49,11 +49,11 @@
                                                          animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
-//        case 1:
-//            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[FarmacosViewController alloc] init]]
-//                                                         animated:YES];
-//            [self.sideMenuViewController hideMenuViewController];
-//            break;
+        case 1:
+            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[LocalesVC alloc] init]]
+                                                         animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
 //        case 2:
 //            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[FarmaciasViewController alloc] init]]
 //                                                         animated:YES];

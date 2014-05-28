@@ -66,7 +66,6 @@
 		1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */; };
 		1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */; };
 		1597EFF41931B21800C3A35F /* Logo2White.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597EFF31931B21800C3A35F /* Logo2White.png */; };
-		1597EFF61931B60500C3A35F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1597EFF51931B60500C3A35F /* FacebookSDK.framework */; };
 		15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */; };
 		15AD4CF8192D452900971947 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF7192D452900971947 /* logout.png */; };
 		15AD4CFA192D473100971947 /* drugs.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AD4CF9192D473100971947 /* drugs.png */; };
@@ -82,6 +81,12 @@
 		15C4976E193288180073578E /* InfoUsuarioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C4976C193288180073578E /* InfoUsuarioViewController.xib */; };
 		15C4977119328D950073578E /* general_top_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C4976F19328D950073578E /* general_top_button.png */; };
 		15C4977219328D950073578E /* general_top_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C4977019328D950073578E /* general_top_button@2x.png */; };
+		72A0EFBB1932706100998ADE /* LocalesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFB91932706100998ADE /* LocalesVC.m */; };
+		72A0EFBC1932706100998ADE /* LocalesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFBA1932706100998ADE /* LocalesVC.xib */; };
+		72A0EFC21932807D00998ADE /* LocalesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFC11932807D00998ADE /* LocalesCell.m */; };
+		72A0EFC41932808D00998ADE /* LocalesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFC31932808D00998ADE /* LocalesCell.xib */; };
+		72C62E3E19355BF4001735AA /* Farmacia.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C62E3D19355BF4001735AA /* Farmacia.m */; };
+		72DF4B7419326D4B004708B7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DF4B7319326D4B004708B7 /* FacebookSDK.framework */; };
 		7FAFA4BE1930FBEC005DAF8C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */; };
 		7FE2BFEF19311C64003754B7 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2BFEE19311C64003754B7 /* background.jpg */; };
 /* End PBXBuildFile section */
@@ -176,7 +181,6 @@
 		1597EFEF1931AE4000C3A35F /* burbujasbackg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasbackg.jpg; sourceTree = "<group>"; };
 		1597EFF11931AEB400C3A35F /* burbujasmenuback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burbujasmenuback.jpg; sourceTree = "<group>"; };
 		1597EFF31931B21800C3A35F /* Logo2White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2White.png; sourceTree = "<group>"; };
-		1597EFF51931B60500C3A35F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		15A4A6FF192701D300B2BDAE /* LogoFarmacios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFarmacios.png; sourceTree = "<group>"; };
 		15AD4CF7192D452900971947 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		15AD4CF9192D473100971947 /* drugs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drugs.png; sourceTree = "<group>"; };
@@ -193,6 +197,15 @@
 		15C4976C193288180073578E /* InfoUsuarioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoUsuarioViewController.xib; sourceTree = "<group>"; };
 		15C4976F19328D950073578E /* general_top_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = general_top_button.png; sourceTree = "<group>"; };
 		15C4977019328D950073578E /* general_top_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "general_top_button@2x.png"; sourceTree = "<group>"; };
+		72A0EFB81932706100998ADE /* LocalesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesVC.h; sourceTree = "<group>"; };
+		72A0EFB91932706100998ADE /* LocalesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesVC.m; sourceTree = "<group>"; };
+		72A0EFBA1932706100998ADE /* LocalesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalesVC.xib; sourceTree = "<group>"; };
+		72A0EFC01932807D00998ADE /* LocalesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalesCell.h; sourceTree = "<group>"; };
+		72A0EFC11932807D00998ADE /* LocalesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalesCell.m; sourceTree = "<group>"; };
+		72A0EFC31932808D00998ADE /* LocalesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalesCell.xib; sourceTree = "<group>"; };
+		72C62E3C19355BF4001735AA /* Farmacia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmacia.h; sourceTree = "<group>"; };
+		72C62E3D19355BF4001735AA /* Farmacia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmacia.m; sourceTree = "<group>"; };
+		72DF4B7319326D4B004708B7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7FE2BFEE19311C64003754B7 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
@@ -204,9 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1595EA4519240E2A0067BE62 /* CoreGraphics.framework in Frameworks */,
+				72DF4B7419326D4B004708B7 /* FacebookSDK.framework in Frameworks */,
 				1595EA4719240E2A0067BE62 /* UIKit.framework in Frameworks */,
 				1595EA4319240E2A0067BE62 /* Foundation.framework in Frameworks */,
-				1597EFF61931B60500C3A35F /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +239,7 @@
 		1595EA3619240E2A0067BE62 = {
 			isa = PBXGroup;
 			children = (
+				72C62E3F1935604B001735AA /* Entidades */,
 				1595EAC119243A300067BE62 /* Extensiones */,
 				1595EA7E19241C3E0067BE62 /* Frameworks */,
 				1595EA7A19241ADD0067BE62 /* Controllers */,
@@ -249,6 +263,7 @@
 		1595EA4119240E2A0067BE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72DF4B7319326D4B004708B7 /* FacebookSDK.framework */,
 				1595EA4219240E2A0067BE62 /* Foundation.framework */,
 				1595EA4419240E2A0067BE62 /* CoreGraphics.framework */,
 				1595EA4619240E2A0067BE62 /* UIKit.framework */,
@@ -347,8 +362,10 @@
 		1595EA7919241AD40067BE62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				72A0EFC31932808D00998ADE /* LocalesCell.xib */,
 				15C4976C193288180073578E /* InfoUsuarioViewController.xib */,
 				1595EA73192415D50067BE62 /* LoguinViewController.xib */,
+				72A0EFBA1932706100998ADE /* LocalesVC.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -356,6 +373,10 @@
 		1595EA7A19241ADD0067BE62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				72A0EFC01932807D00998ADE /* LocalesCell.h */,
+				72A0EFC11932807D00998ADE /* LocalesCell.m */,
+				72A0EFB81932706100998ADE /* LocalesVC.h */,
+				72A0EFB91932706100998ADE /* LocalesVC.m */,
 				15C4976A193288180073578E /* InfoUsuarioViewController.h */,
 				15C4976B193288180073578E /* InfoUsuarioViewController.m */,
 				1595EA7B19241C290067BE62 /* DemoLeftMenuViewController.h */,
@@ -369,7 +390,6 @@
 		1595EA7E19241C3E0067BE62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1597EFF51931B60500C3A35F /* FacebookSDK.framework */,
 				7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */,
 				7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */,
 				1595EA7F19241C4D0067BE62 /* AFNetworking */,
@@ -430,6 +450,15 @@
 				15AD4D01192D4A4100971947 /* screenlaunchebrunoOriginal.png */,
 			);
 			name = "Loguin y Splash";
+			sourceTree = "<group>";
+		};
+		72C62E3F1935604B001735AA /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+				72C62E3C19355BF4001735AA /* Farmacia.h */,
+				72C62E3D19355BF4001735AA /* Farmacia.m */,
+			);
+			name = Entidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,6 +572,7 @@
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
 				15AD4D05192D4A4100971947 /* ingresarrr.png in Resources */,
 				1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */,
+				72A0EFBC1932706100998ADE /* LocalesVC.xib in Resources */,
 				1595EACD19243E530067BE62 /* login_separator.png in Resources */,
 				1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */,
 				1595EAA9192426B90067BE62 /* menuBackground.jpg in Resources */,
@@ -554,6 +584,7 @@
 				1595EA5519240E2A0067BE62 /* Images.xcassets in Resources */,
 				1595EAD2192442250067BE62 /* Drug-icon.png in Resources */,
 				15C4977219328D950073578E /* general_top_button@2x.png in Resources */,
+				72A0EFC41932808D00998ADE /* LocalesCell.xib in Resources */,
 				1595EAC619243D450067BE62 /* logo.jpg in Resources */,
 				1597EFEA1931A86600C3A35F /* Logo2.png in Resources */,
 			);
@@ -575,14 +606,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1595EA74192415D50067BE62 /* LoguinViewController.m in Sources */,
+				72A0EFC21932807D00998ADE /* LocalesCell.m in Sources */,
 				1595EAA419241C4D0067BE62 /* UIViewController+RESideMenu.m in Sources */,
 				1595EA9D19241C4D0067BE62 /* AFSecurityPolicy.m in Sources */,
 				1595EA5319240E2A0067BE62 /* AppDelegate.m in Sources */,
 				1595EA9A19241C4D0067BE62 /* AFHTTPRequestOperationManager.m in Sources */,
 				1595EA9E19241C4D0067BE62 /* AFURLConnectionOperation.m in Sources */,
+				72A0EFBB1932706100998ADE /* LocalesVC.m in Sources */,
 				1595EA9919241C4D0067BE62 /* AFHTTPRequestOperation.m in Sources */,
 				15C4976D193288180073578E /* InfoUsuarioViewController.m in Sources */,
 				1595EA4F19240E2A0067BE62 /* main.m in Sources */,
+				72C62E3E19355BF4001735AA /* Farmacia.m in Sources */,
 				1595EA9F19241C4D0067BE62 /* AFURLRequestSerialization.m in Sources */,
 				1595EA9B19241C4D0067BE62 /* AFHTTPSessionManager.m in Sources */,
 				1595EA9C19241C4D0067BE62 /* AFNetworkReachabilityManager.m in Sources */,
@@ -713,6 +747,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
@@ -733,6 +768,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
