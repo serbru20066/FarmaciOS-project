@@ -40,9 +40,11 @@
     // Do any additional setup after loading the view from its nib.
     
     //SPinner
-     activityView = [[OMBActivityView alloc] init];
-     [self.view addSubview: activityView];
-     [activityView startSpinning];
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+	[self.view addSubview:HUD];
+    HUD.labelText=@"Cargando Datos";
+	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
 
     
 
@@ -186,7 +188,7 @@
                 }];
             }
         }];
-        [activityView stopSpinning];
+  
     }
     
     cell.nombre.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).NomFarmacia;
@@ -195,8 +197,12 @@
     [cell.mapa addTarget:self action:@selector(goMap) forControlEvents:UIControlEventTouchUpInside];
     
     
+    [HUD removeFromSuperview];
+    
     return cell;
 }
+
+
 
 
 @end

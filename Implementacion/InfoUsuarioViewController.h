@@ -10,6 +10,9 @@
 #import <FacebookSDK/FacebookSDK.h>
 
 @interface InfoUsuarioViewController : UIViewController<FBLoginViewDelegate>
+{
+  NSUserDefaults *standardDefaults ;
+}
 @property FBProfilePictureView *profilePictureView;
 
 

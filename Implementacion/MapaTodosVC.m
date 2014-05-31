@@ -32,6 +32,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    
+    
+    //SPinner
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+	[self.view addSubview:HUD];
+    HUD.labelText=@"Cargando Ubicaciones";
+	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
+    
+    
     [self Service];
 
 }
@@ -60,11 +70,9 @@
         point.coordinate = coordinate;
         [self.mapa addAnnotation:point];
     }
-    
-    
-    
-    
-    
+ 
+    [HUD removeFromSuperview];
+ 
     
 }
 
@@ -106,5 +114,9 @@
      }];
 
 
+}
+
+- (void)myTask {
+    sleep(20);
 }
 @end

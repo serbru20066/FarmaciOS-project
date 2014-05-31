@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OMBActivityView.h"
+#import "MBProgressHUD.h"
+
 
 
 @interface LocalesVC : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
-OMBActivityView *activityView;
+    MBProgressHUD *HUD;
+    
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 

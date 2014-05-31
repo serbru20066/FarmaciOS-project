@@ -35,9 +35,13 @@
     // Do any additional setup after loading the view from its nib.
     
     //Spinner
-    activityView = [[OMBActivityView alloc] init];
-    [self.view addSubview: activityView];
-    [activityView startSpinning];
+
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+	[self.view addSubview:HUD];
+    HUD.labelText=@"Cargando Datos";
+	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
+
     
     //configurando table
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
@@ -124,10 +128,13 @@
     cell.direccion.text = ((Local*)[locales objectAtIndex:indexPath.row]).Direccion;
     cell.distrito.text = ((Local*)[locales objectAtIndex:indexPath.row]).Distrito;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+ 
     
-     [activityView stopSpinning];
-    
-    
+    [HUD removeFromSuperview];
     return cell;
+}
+
+- (void)myTask {
+    sleep(20);
 }
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -13,8 +13,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_bg_dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="zSi-R6-PQj">
-                        <rect key="frame" x="10" y="4" width="300" height="82"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zSi-R6-PQj">
+                        <rect key="frame" x="0.0" y="4" width="320" height="82"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.40896739130434778" green="0.40896739130434778" blue="0.40896739130434778" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
@@ -34,6 +34,7 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="direccion" destination="utZ-um-sMn" id="qc2-Nz-iQm"/>
                 <outlet property="distrito" destination="4xr-S6-xUO" id="Uz3-lE-006"/>
@@ -41,7 +42,4 @@
             </connections>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="menu_bg_dark.png" width="64" height="64"/>
-    </resources>
 </document>

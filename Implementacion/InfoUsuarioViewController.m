@@ -46,6 +46,9 @@
     
     [super viewDidLoad];
     // Obtener datos del NSUSerDefault y mostrarlos
+    
+    standardDefaults = [NSUserDefaults standardUserDefaults];
+    
     self.view.backgroundColor=[UIColor whiteColor];
     
     //esconder boton Back
@@ -60,6 +63,10 @@
 }
 
 #pragma FB Loguin Delegate
+
+
+
+
 
 
 //Programamos en este delegado(de cerrar sesion) porque, cuando estemos en este viewcontroller, siempre sera porque ya estamos logueados
@@ -88,11 +95,11 @@
     
     
     //Labels con la informacion del usuario
-    NSString *fbid = [[NSUserDefaults standardUserDefaults]
+    NSString *fbid = [standardDefaults
                       stringForKey:@"fbid"];
-    NSString *fbname = [[NSUserDefaults standardUserDefaults]
+    NSString *fbname = [standardDefaults
                         stringForKey:@"fbname"];
-    NSString *fbcorr = [[NSUserDefaults standardUserDefaults]
+    NSString *fbcorr = [standardDefaults
                         stringForKey:@"fbcorr"];
     
     UILabel *lbltitle=[[UILabel alloc] initWithFrame:CGRectMake(60, 90, 300, 20)];

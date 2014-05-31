@@ -10,11 +10,13 @@
 #import "UITextField_Extension.h"
 #import "MBProgressHUD.h"
 #import <FacebookSDK/FacebookSDK.h>
+#import "RESideMenu.h"
 
 @interface LoguinViewController : UIViewController<UITextFieldDelegate,FBLoginViewDelegate>
 {
     NSMutableDictionary *usuArr;
     MBProgressHUD *HUD;
+    NSUserDefaults *standardDefaults;
     
 
 }

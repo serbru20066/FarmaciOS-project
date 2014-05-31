@@ -31,6 +31,7 @@
     
     [super viewDidLoad];
     
+    standardDefaults = [NSUserDefaults standardUserDefaults];
     
     //Facebook button
     
@@ -237,6 +238,9 @@
 
 
 #pragma FBButon Delegados
+
+
+
 - (void)loginViewFetchedUserInfo:(FBLoginView *)loginView
                             user:(id<FBGraphUser>)user {
     
@@ -254,23 +258,34 @@
     
     //Guardar datos en el NSUserDefault
     
+
+    
+    
     NSString *ide = user.id;
     NSString *nom= [user objectForKey:@"name"];
     NSString *corr= [user objectForKey:@"email"];
-    [[NSUserDefaults standardUserDefaults] setObject:ide forKey:@"fbid"];
-    [[NSUserDefaults standardUserDefaults] setObject:nom forKey:@"fbname"];
-    [[NSUserDefaults standardUserDefaults] setObject:corr forKey:@"fbcorr"];
+
+    
+    
+    [standardDefaults setObject:ide forKey:@"fbid"];
+    [standardDefaults setObject:nom forKey:@"fbname"];
+    [standardDefaults setObject:corr forKey:@"fbcorr"];
+    
+    [standardDefaults synchronize];
 
 }
 
 - (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
     
+//    
+//    [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[InfoUsuarioViewController alloc] init]]
+//                                                 animated:NO];
+//    
+//    [self.navigationController setNavigationBarHidden:YES];
     
-    InfoUsuarioViewController *ivc = [[InfoUsuarioViewController alloc] init];
     
-    [self.navigationController pushViewController:ivc animated:NO];
-    
-    [self.navigationController setNavigationBarHidden:YES];
+    InfoUsuarioViewController *vc = [[InfoUsuarioViewController  alloc]init];
+    [self.navigationController pushViewController:vc animated:NO];
 }
 
 

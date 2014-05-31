@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "MBProgressHUD.h"
 
 @interface MapaTodosVC : UIViewController<MKMapViewDelegate>
+{
+    MBProgressHUD *HUD;
+}
 @property (weak, nonatomic) IBOutlet MKMapView *mapa;
 
 @end
