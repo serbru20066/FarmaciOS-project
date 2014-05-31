@@ -12,6 +12,8 @@
 #import "Farmacia.h"
 #import "LocalesVC.h"
 #import "MapaTodosVC.h"
+#import "DiamondActivityIndicator.h"
+
 @interface FarmaciasVC ()
 {
     NSMutableArray *farmacias;
@@ -36,6 +38,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //SPinner
+     activityView = [[OMBActivityView alloc] init];
+     [self.view addSubview: activityView];
+     [activityView startSpinning];
+
+    
+
     
     [self.navigationController setNavigationBarHidden:YES];
     [super viewDidLoad];
@@ -85,7 +95,9 @@
     
 
 }
-
+- (void)myTask {
+    sleep(20);
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -128,6 +140,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+   
     
     static NSString *CellIdentifier = @"FarmaciasCell";
     FarmaciasCell *cell = (FarmaciasCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -144,6 +157,7 @@
     if (cachedImage)
     {
         cell.imagen.image = cachedImage;
+        NSLog(@"cacheee");
     }
     else
     {
@@ -159,6 +173,10 @@
             
             if (image)
             {
+        
+             
+               
+                
                 [self.imageCache setObject:image forKey:imageURL];
                 [[NSOperationQueue mainQueue] addOperationWithBlock:^{
 
@@ -168,12 +186,15 @@
                 }];
             }
         }];
+        [activityView stopSpinning];
     }
     
     cell.nombre.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).NomFarmacia;
     cell.fechafundacion.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).FechaFundacion;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [cell.mapa addTarget:self action:@selector(goMap) forControlEvents:UIControlEventTouchUpInside];
+    
+    
     return cell;
 }
 

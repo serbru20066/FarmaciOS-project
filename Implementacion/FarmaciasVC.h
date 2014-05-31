@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DiamondActivityIndicator.h"
+#import "MBProgressHUD.h"
+#import "OMBActivityView.h"
 @interface FarmaciasVC : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    MBProgressHUD *HUD;
+    OMBActivityView *activityView;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imagen;
 @property (weak, nonatomic) IBOutlet UIImageView *fondo;
 @property (weak, nonatomic) IBOutlet UIButton *mapa;
+@property (weak, nonatomic) IBOutlet UIButton *btnDeslizar;
 
 
 

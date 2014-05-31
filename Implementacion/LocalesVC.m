@@ -34,6 +34,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    //Spinner
+    activityView = [[OMBActivityView alloc] init];
+    [self.view addSubview: activityView];
+    [activityView startSpinning];
     
     //configurando table
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
@@ -120,6 +124,10 @@
     cell.direccion.text = ((Local*)[locales objectAtIndex:indexPath.row]).Direccion;
     cell.distrito.text = ((Local*)[locales objectAtIndex:indexPath.row]).Distrito;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+     [activityView stopSpinning];
+    
+    
     return cell;
 }
 @end

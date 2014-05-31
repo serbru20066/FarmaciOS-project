@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OMBActivityView.h"
+
 
 @interface LocalesVC : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+OMBActivityView *activityView;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
