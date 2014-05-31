@@ -11,7 +11,7 @@
 #import "AFNetworking.h"
 #import "Farmacia.h"
 #import "LocalesVC.h"
-
+#import "MapaTodosVC.h"
 @interface FarmaciasVC ()
 {
     NSMutableArray *farmacias;
@@ -103,7 +103,12 @@
     [[NSUserDefaults standardUserDefaults] setObject:idf forKey:@"idFarmacia"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
-
+-(void) goMap
+{
+    MapaTodosVC *mp = [[MapaTodosVC alloc]initWithNibName:@"MapaTodosVC" bundle:nil];
+    [self.navigationController pushViewController:mp animated:YES];
+    
+}
 #pragma mark UITableView Datasource
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -168,6 +173,7 @@
     cell.nombre.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).NomFarmacia;
     cell.fechafundacion.text = ((Farmacia*)[farmacias objectAtIndex:indexPath.row]).FechaFundacion;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    [cell.mapa addTarget:self action:@selector(goMap) forControlEvents:UIControlEventTouchUpInside];
     return cell;
 }
 

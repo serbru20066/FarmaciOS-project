@@ -96,6 +96,9 @@
 		72A0EFC21932807D00998ADE /* FarmaciasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFC11932807D00998ADE /* FarmaciasCell.m */; };
 		72A0EFC41932808D00998ADE /* FarmaciasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFC31932808D00998ADE /* FarmaciasCell.xib */; };
 		72C62E3E19355BF4001735AA /* Farmacia.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C62E3D19355BF4001735AA /* Farmacia.m */; };
+		72E3870A1939F251001C7858 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E387091939F251001C7858 /* mapa.png */; };
+		72E3870E1939F74D001C7858 /* MapaTodosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E3870C1939F74D001C7858 /* MapaTodosVC.m */; };
+		72E3870F1939F74D001C7858 /* MapaTodosVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E3870D1939F74D001C7858 /* MapaTodosVC.xib */; };
 		7FAFA4BE1930FBEC005DAF8C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */; };
 		7FE2BFEF19311C64003754B7 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2BFEE19311C64003754B7 /* background.jpg */; };
 /* End PBXBuildFile section */
@@ -228,6 +231,10 @@
 		72A0EFC31932808D00998ADE /* FarmaciasCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmaciasCell.xib; sourceTree = "<group>"; };
 		72C62E3C19355BF4001735AA /* Farmacia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmacia.h; sourceTree = "<group>"; };
 		72C62E3D19355BF4001735AA /* Farmacia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmacia.m; sourceTree = "<group>"; };
+		72E387091939F251001C7858 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapa.png; path = ../mapa.png; sourceTree = "<group>"; };
+		72E3870B1939F74D001C7858 /* MapaTodosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaTodosVC.h; sourceTree = "<group>"; };
+		72E3870C1939F74D001C7858 /* MapaTodosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaTodosVC.m; sourceTree = "<group>"; };
+		72E3870D1939F74D001C7858 /* MapaTodosVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapaTodosVC.xib; sourceTree = "<group>"; };
 		7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7FE2BFEE19311C64003754B7 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
@@ -339,6 +346,7 @@
 		1595EA7619241AC30067BE62 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				72E387091939F251001C7858 /* mapa.png */,
 				15C4976F19328D950073578E /* general_top_button.png */,
 				15C4977019328D950073578E /* general_top_button@2x.png */,
 				2329B8AF19363D3C001DCCF7 /* backButton.png */,
@@ -388,6 +396,7 @@
 			children = (
 				2329B8B319364078001DCCF7 /* MapVC.xib */,
 				2329B8AA193632F3001DCCF7 /* LocalesCell.xib */,
+				72E3870D1939F74D001C7858 /* MapaTodosVC.xib */,
 				2329B8A419362EBE001DCCF7 /* LocalesVC.xib */,
 				72A0EFC31932808D00998ADE /* FarmaciasCell.xib */,
 				15C4976C193288180073578E /* InfoUsuarioViewController.xib */,
@@ -400,6 +409,8 @@
 		1595EA7A19241ADD0067BE62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				72E3870B1939F74D001C7858 /* MapaTodosVC.h */,
+				72E3870C1939F74D001C7858 /* MapaTodosVC.m */,
 				2329B8B119364078001DCCF7 /* MapVC.h */,
 				2329B8B219364078001DCCF7 /* MapVC.m */,
 				2329B8A7193632E1001DCCF7 /* LocalesCell.h */,
@@ -544,6 +555,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bruno Cardenas";
 				TargetAttributes = {
+					1595EA3E19240E2A0067BE62 = {
+						DevelopmentTeam = L6WEK9SB93;
+					};
 					1595EA5919240E2A0067BE62 = {
 						TestTargetID = 1595EA3E19240E2A0067BE62;
 					};
@@ -598,6 +612,7 @@
 				1595EABD192436E00067BE62 /* user_icon_default_filled.png in Resources */,
 				1597EFEC1931AA2600C3A35F /* menuback.png in Resources */,
 				1595EAB0192433990067BE62 /* login_textbox@2x.png in Resources */,
+				72E3870A1939F251001C7858 /* mapa.png in Resources */,
 				15AD4D02192D4A4100971947 /* background.png in Resources */,
 				1595EAB4192434910067BE62 /* general_bg@2x.png in Resources */,
 				1595EAB3192434910067BE62 /* general_bg.png in Resources */,
@@ -611,6 +626,7 @@
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
 				15AD4D05192D4A4100971947 /* ingresarrr.png in Resources */,
 				1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */,
+				72E3870F1939F74D001C7858 /* MapaTodosVC.xib in Resources */,
 				72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */,
 				1595EACD19243E530067BE62 /* login_separator.png in Resources */,
 				1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */,
@@ -669,6 +685,7 @@
 				2329B8B419364078001DCCF7 /* MapVC.m in Sources */,
 				2329B8AE193637FD001DCCF7 /* Local.m in Sources */,
 				1595EAA319241C4D0067BE62 /* RESideMenu.m in Sources */,
+				72E3870E1939F74D001C7858 /* MapaTodosVC.m in Sources */,
 				1595EAC419243A5F0067BE62 /* UITextField_Extension.m in Sources */,
 				1595EAA219241C4D0067BE62 /* RECommonFunctions.m in Sources */,
 			);
@@ -787,7 +804,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alvaro Herrera (2DZASPE9PA)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,
@@ -797,7 +814,7 @@
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
+				PROVISIONING_PROFILE = "78FCB46A-43F1-45A9-9828-39C4E32E9D99";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -808,7 +825,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alvaro Herrera (2DZASPE9PA)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,
@@ -818,7 +835,7 @@
 				GCC_PREFIX_HEADER = "proyectoFarmaciOS/proyectoFarmaciOS-Prefix.pch";
 				INFOPLIST_FILE = "proyectoFarmaciOS/proyectoFarmaciOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
+				PROVISIONING_PROFILE = "78FCB46A-43F1-45A9-9828-39C4E32E9D99";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
