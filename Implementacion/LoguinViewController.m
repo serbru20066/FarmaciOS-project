@@ -278,14 +278,14 @@
 - (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
     
 //    
-//    [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[InfoUsuarioViewController alloc] init]]
-//                                                 animated:NO];
-//    
-//    [self.navigationController setNavigationBarHidden:YES];
+  //  [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[[InfoUsuarioViewController alloc] init]]
+   //                                              animated:NO];
+    
+   // [self.navigationController setNavigationBarHidden:YES];
     
     
-    InfoUsuarioViewController *vc = [[InfoUsuarioViewController  alloc]init];
-    [self.navigationController pushViewController:vc animated:NO];
+   InfoUsuarioViewController *vc = [[InfoUsuarioViewController  alloc]init];
+   [self.navigationController pushViewController:vc animated:NO];
 }
 
 

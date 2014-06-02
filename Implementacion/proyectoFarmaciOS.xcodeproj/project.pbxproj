@@ -21,7 +21,6 @@
 		1595EA6819240E2A0067BE62 /* proyectoFarmaciOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA6719240E2A0067BE62 /* proyectoFarmaciOSTests.m */; };
 		1595EA74192415D50067BE62 /* LoguinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA72192415D50067BE62 /* LoguinViewController.m */; };
 		1595EA75192415D50067BE62 /* LoguinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1595EA73192415D50067BE62 /* LoguinViewController.xib */; };
-		1595EA7819241ACF0067BE62 /* dark-planingwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EA7719241ACF0067BE62 /* dark-planingwood.png */; };
 		1595EA7D19241C290067BE62 /* DemoLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA7C19241C290067BE62 /* DemoLeftMenuViewController.m */; };
 		1595EA9919241C4D0067BE62 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA8119241C4D0067BE62 /* AFHTTPRequestOperation.m */; };
 		1595EA9A19241C4D0067BE62 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA8319241C4D0067BE62 /* AFHTTPRequestOperationManager.m */; };
@@ -35,7 +34,6 @@
 		1595EAA219241C4D0067BE62 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA9419241C4D0067BE62 /* RECommonFunctions.m */; };
 		1595EAA319241C4D0067BE62 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA9619241C4D0067BE62 /* RESideMenu.m */; };
 		1595EAA419241C4D0067BE62 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595EA9819241C4D0067BE62 /* UIViewController+RESideMenu.m */; };
-		1595EAA619241D1E0067BE62 /* darkblueblur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAA519241D1E0067BE62 /* darkblueblur.jpg */; };
 		1595EAA9192426B90067BE62 /* menuBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAA7192426B90067BE62 /* menuBackground.jpg */; };
 		1595EAAA192426B90067BE62 /* menuBackground@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAA8192426B90067BE62 /* menuBackground@2x.jpg */; };
 		1595EAAF192433990067BE62 /* login_textbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 1595EAAD192433990067BE62 /* login_textbox.png */; };
@@ -91,6 +89,9 @@
 		2329B8B419364078001DCCF7 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329B8B219364078001DCCF7 /* MapVC.m */; };
 		2329B8B519364078001DCCF7 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2329B8B319364078001DCCF7 /* MapVC.xib */; };
 		2329B8B719364410001DCCF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2329B8B619364410001DCCF7 /* MapKit.framework */; };
+		2DA211F2193C2C1E004F462E /* menu_subtitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F0193C2C1E004F462E /* menu_subtitle.png */; };
+		2DA211F3193C2C1E004F462E /* menu_subtitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F1193C2C1E004F462E /* menu_subtitle@2x.png */; };
+		2DA211F5193C2CC2004F462E /* backgroundtable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F4193C2CC2004F462E /* backgroundtable.jpg */; };
 		72A0EFBB1932706100998ADE /* FarmaciasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFB91932706100998ADE /* FarmaciasVC.m */; };
 		72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFBA1932706100998ADE /* FarmaciasVC.xib */; };
 		72A0EFC21932807D00998ADE /* FarmaciasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFC11932807D00998ADE /* FarmaciasCell.m */; };
@@ -134,7 +135,6 @@
 		1595EA71192415D50067BE62 /* LoguinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoguinViewController.h; sourceTree = "<group>"; };
 		1595EA72192415D50067BE62 /* LoguinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoguinViewController.m; sourceTree = "<group>"; };
 		1595EA73192415D50067BE62 /* LoguinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoguinViewController.xib; sourceTree = "<group>"; };
-		1595EA7719241ACF0067BE62 /* dark-planingwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-planingwood.png"; sourceTree = "<group>"; };
 		1595EA7B19241C290067BE62 /* DemoLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLeftMenuViewController.h; sourceTree = "<group>"; };
 		1595EA7C19241C290067BE62 /* DemoLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoLeftMenuViewController.m; sourceTree = "<group>"; };
 		1595EA8019241C4D0067BE62 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -162,7 +162,6 @@
 		1595EA9619241C4D0067BE62 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		1595EA9719241C4D0067BE62 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		1595EA9819241C4D0067BE62 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
-		1595EAA519241D1E0067BE62 /* darkblueblur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darkblueblur.jpg; sourceTree = "<group>"; };
 		1595EAA7192426B90067BE62 /* menuBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menuBackground.jpg; sourceTree = "<group>"; };
 		1595EAA8192426B90067BE62 /* menuBackground@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "menuBackground@2x.jpg"; sourceTree = "<group>"; };
 		1595EAAD192433990067BE62 /* login_textbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textbox.png; sourceTree = "<group>"; };
@@ -224,6 +223,9 @@
 		2329B8B219364078001DCCF7 /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
 		2329B8B319364078001DCCF7 /* MapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		2329B8B619364410001DCCF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2DA211F0193C2C1E004F462E /* menu_subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_subtitle.png; sourceTree = "<group>"; };
+		2DA211F1193C2C1E004F462E /* menu_subtitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_subtitle@2x.png"; sourceTree = "<group>"; };
+		2DA211F4193C2CC2004F462E /* backgroundtable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundtable.jpg; sourceTree = "<group>"; };
 		72A0EFB81932706100998ADE /* FarmaciasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarmaciasVC.h; sourceTree = "<group>"; };
 		72A0EFB91932706100998ADE /* FarmaciasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarmaciasVC.m; sourceTree = "<group>"; };
 		72A0EFBA1932706100998ADE /* FarmaciasVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmaciasVC.xib; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 		1595EA7619241AC30067BE62 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				2DA211F4193C2CC2004F462E /* backgroundtable.jpg */,
 				7F43D8CF193A4D74002558F6 /* back.png */,
 				72E387091939F251001C7858 /* mapa.png */,
 				15C4976F19328D950073578E /* general_top_button.png */,
@@ -388,8 +391,6 @@
 				1595EAAE192433990067BE62 /* login_textbox@2x.png */,
 				1595EAA7192426B90067BE62 /* menuBackground.jpg */,
 				1595EAA8192426B90067BE62 /* menuBackground@2x.jpg */,
-				1595EAA519241D1E0067BE62 /* darkblueblur.jpg */,
-				1595EA7719241ACF0067BE62 /* dark-planingwood.png */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -489,6 +490,8 @@
 		15AD4CEA192D435700971947 /* Loguin y Splash */ = {
 			isa = PBXGroup;
 			children = (
+				2DA211F0193C2C1E004F462E /* menu_subtitle.png */,
+				2DA211F1193C2C1E004F462E /* menu_subtitle@2x.png */,
 				15AD4CFB192D4A4100971947 /* background.png */,
 				15AD4CFC192D4A4100971947 /* cuadro solo.png */,
 				15AD4CFD192D4A4100971947 /* fondo negro splashscreen.png */,
@@ -589,7 +592,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1595EA7819241ACF0067BE62 /* dark-planingwood.png in Resources */,
 				1595EACE19243E530067BE62 /* login_separator@2x.png in Resources */,
 				15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */,
 				1595EAC0192438A90067BE62 /* logoback.png in Resources */,
@@ -599,6 +601,7 @@
 				1595EA4D19240E2A0067BE62 /* InfoPlist.strings in Resources */,
 				1597EFF41931B21800C3A35F /* Logo2White.png in Resources */,
 				1595EABE192436E00067BE62 /* user_icon_default_filled@2x.png in Resources */,
+				2DA211F3193C2C1E004F462E /* menu_subtitle@2x.png in Resources */,
 				1595EAAF192433990067BE62 /* login_textbox.png in Resources */,
 				7FE2BFEF19311C64003754B7 /* background.jpg in Resources */,
 				1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */,
@@ -621,14 +624,15 @@
 				1595EAB4192434910067BE62 /* general_bg@2x.png in Resources */,
 				1595EAB3192434910067BE62 /* general_bg.png in Resources */,
 				1595EADD192442E70067BE62 /* logout_icon.png in Resources */,
+				2DA211F5193C2CC2004F462E /* backgroundtable.jpg in Resources */,
 				15C4976E193288180073578E /* InfoUsuarioViewController.xib in Resources */,
 				1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */,
 				1595EAAA192426B90067BE62 /* menuBackground@2x.jpg in Resources */,
 				2329B8B519364078001DCCF7 /* MapVC.xib in Resources */,
-				1595EAA619241D1E0067BE62 /* darkblueblur.jpg in Resources */,
 				1595EADE192442E70067BE62 /* logout_icon@2x.png in Resources */,
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
 				15AD4D05192D4A4100971947 /* ingresarrr.png in Resources */,
+				2DA211F2193C2C1E004F462E /* menu_subtitle.png in Resources */,
 				1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */,
 				72E3870F1939F74D001C7858 /* MapaTodosVC.xib in Resources */,
 				72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */,

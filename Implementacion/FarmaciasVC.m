@@ -51,7 +51,7 @@
     
     [self.navigationController setNavigationBarHidden:YES];
     [super viewDidLoad];
-    // Obtener datos del NSUSerDefault y mostrarlos
+    
     self.view.backgroundColor=[UIColor whiteColor];
     //esconder boton Back
     [self.navigationItem setHidesBackButton:YES animated:YES];

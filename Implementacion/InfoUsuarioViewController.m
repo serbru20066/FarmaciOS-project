@@ -27,7 +27,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImage *buttonImage = [UIImage imageNamed:@"general_top_button.png"];
+    UIButton *aButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [aButton setImage:buttonImage forState:UIControlStateNormal];
+    aButton.frame = CGRectMake(0.0,0.0,buttonImage.size.width,buttonImage.size.height);
+    [aButton addTarget:self action:@selector(presentLeftMenuViewController:)forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:aButton];
+    self.navigationItem.leftBarButtonItem = backButton;
+    
 
+    
     
     //Cabecera escondida
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
