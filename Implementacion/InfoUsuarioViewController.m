@@ -111,28 +111,21 @@
                         stringForKey:@"fbname"];
     NSString *fbcorr = [standardDefaults
                         stringForKey:@"fbcorr"];
+
     
-    UILabel *lbltitle=[[UILabel alloc] initWithFrame:CGRectMake(60, 90, 300, 20)];
-    lbltitle.text=@"Informacion Obtenida";
+    UILabel *lblnom=[[UILabel alloc] initWithFrame:CGRectMake(30, 180, 300, 20)];
+    lblnom.text=[NSString stringWithFormat:@"%@ %@",@"Bienvenido ",fbname];
     
-    UILabel *lblnom=[[UILabel alloc] initWithFrame:CGRectMake(30, 140, 300, 20)];
-    lblnom.text=[NSString stringWithFormat:@"%@ %@",@"Nombre:",fbname];
-    
-    UILabel *lblid=[[UILabel alloc] initWithFrame:CGRectMake(30, 180, 300, 20)];
-    lblid.text=[NSString stringWithFormat:@"%@ %@",@"ID de facebook:",fbid];
-    
+   
     UILabel *lblcorr=[[UILabel alloc] initWithFrame:CGRectMake(30, 220, 300, 20)];
     lblcorr.text=[NSString stringWithFormat:@"%@ %@",@"Correo:",fbcorr];
     
-    UILabel *lbltitimg=[[UILabel alloc] initWithFrame:CGRectMake(30, 260, 300, 20)];
-    lbltitimg.text=@"Imagen de Perfil:";
-    
-    
-    [self.view addSubview:lbltitle];
+   
+  
     [self.view addSubview:lblnom];
-    [self.view addSubview:lblid];
+
     [self.view addSubview:lblcorr];
-    [self.view addSubview:lbltitimg];
+
     
     
     //Imagen de perfil
