@@ -23,12 +23,23 @@
 - (void)awakeFromNib
 {
     // Initialization code
-    self.imagen.frame = CGRectMake(210, 20, 50, 50);
-    self.mapa.frame = CGRectMake(210, 20, 50, 50);
-    self.imagen.layer.cornerRadius = self.imagen.frame.size.height /2;
-    self.imagen.layer.masksToBounds = YES;
+//    self.imagen.frame = CGRectMake(210, 20, 50, 50);
+//    self.mapa.frame = CGRectMake(210, 20, 50, 50);
+//    self.imagen.layer.cornerRadius = self.imagen.frame.size.height /2;
+//    self.imagen.layer.masksToBounds = YES;
 
 
+    
+    
+    
+    self.fondo.layer.cornerRadius = self.imagen.frame.size.height /2;
+    self.fondo.layer.masksToBounds = YES;
+    [self.fondo.layer setBorderColor: [[UIColor colorWithRed:124/255.0 green:156/255.0 blue:55/255.0 alpha:1.0] CGColor]];
+    
+   
+    
+    
+    [self.fondo.layer setBorderWidth: 5.0];
     
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     pan.minimumNumberOfTouches = 1;
@@ -49,7 +60,7 @@
     
     [UIView animateWithDuration:0.2f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
-        self.imagen.alpha = 0.0f;
+//        self.imagen.alpha = 0.0f;
         self.mapa.alpha = 1.0f;
         
     } completion:^(BOOL finished) {
@@ -65,7 +76,7 @@
     
     [UIView animateWithDuration:0.2f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
-        self.imagen.alpha =1.0f;
+//        self.imagen.alpha =1.0f;
         self.mapa.alpha = 0.0f;
         
     } completion:^(BOOL finished) {

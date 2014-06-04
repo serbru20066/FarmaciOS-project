@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *fondo;
 @property (weak, nonatomic) IBOutlet UILabel *direccion;
 @property (weak, nonatomic) IBOutlet UILabel *distrito;
+@property (weak, nonatomic) IBOutlet UIImageView *option;
 
 @end

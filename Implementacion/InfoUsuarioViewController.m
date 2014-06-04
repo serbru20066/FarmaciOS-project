@@ -8,6 +8,7 @@
 
 #import "InfoUsuarioViewController.h"
 #import "LoguinViewController.h"
+#import "FXBlurView.h"
 
 @interface InfoUsuarioViewController ()
 
@@ -28,26 +29,48 @@
 {
     [super viewDidLoad];
     
+    
+    
+    self.UserName.frame = CGRectMake(-305, 372, 302, 21);
+    _profilePictureView=[[FBProfilePictureView alloc] init];
+    _profilePictureView.frame=CGRectMake(0, 45, 320, 279);
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320 , 580)];
+    imgView.image = [UIImage imageNamed:@"fondo9.jpeg"];
+    [self.view addSubview:imgView];
+    
+    FXBlurView *blurView = [[FXBlurView alloc]initWithFrame:CGRectMake(0, 0, 320, 568)];
+    blurView.blurRadius = 10.0f;
+    blurView.alpha = 0.99f;
+    [blurView setTintColor:[UIColor whiteColor]];
+    [self.view addSubview:blurView];
+    [blurView addSubview:_profilePictureView];
+    [blurView addSubview:self.UserName];
+    
+
+
     UIImage *buttonImage = [UIImage imageNamed:@"general_top_button.png"];
     UIButton *aButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [aButton setImage:buttonImage forState:UIControlStateNormal];
-    aButton.frame = CGRectMake(0.0,0.0,buttonImage.size.width,buttonImage.size.height);
+    aButton.frame = CGRectMake(0.0,0.0,40,40);
     [aButton addTarget:self action:@selector(presentLeftMenuViewController:)forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:aButton];
     self.navigationItem.leftBarButtonItem = backButton;
     
-
+    self.navigationItem.title = @"Perfil";
+[self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:(124/255.0) green:(156/255.0) blue:(55/255.0) alpha:1]];
     
     
     //Cabecera escondida
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
                                                   forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
-    self.navigationController.navigationBar.translucent = YES;
+    [self.navigationController.navigationBar setTranslucent:NO];
+    [self.navigationController setNavigationBarHidden:NO];
     
     //Boton de FB
     FBLoginView *loginView = [[FBLoginView alloc] init];
-    loginView.frame = CGRectMake(100, 500,200, 300);
+    loginView.frame = CGRectMake(60, 430,200, 300);
     loginView.delegate=self;
     [self.view addSubview:loginView];
     
@@ -112,27 +135,24 @@
     NSString *fbcorr = [standardDefaults
                         stringForKey:@"fbcorr"];
 
-    
-    UILabel *lblnom=[[UILabel alloc] initWithFrame:CGRectMake(30, 180, 300, 20)];
-    lblnom.text=[NSString stringWithFormat:@"%@ %@",@"Bienvenido ",fbname];
-    
-   
-    UILabel *lblcorr=[[UILabel alloc] initWithFrame:CGRectMake(30, 220, 300, 20)];
-    lblcorr.text=[NSString stringWithFormat:@"%@ %@",@"Correo:",fbcorr];
-    
-   
-  
-    [self.view addSubview:lblnom];
 
-    [self.view addSubview:lblcorr];
-
-    
-    
     //Imagen de perfil
-    _profilePictureView=[[FBProfilePictureView alloc] init];
-    _profilePictureView.frame=CGRectMake(170, 265, 100, 100);
-    _profilePictureView.profileID = fbid;
+
     [self.view addSubview:_profilePictureView];
+    _profilePictureView.alpha= 0.0;
+    
+    [UIView animateWithDuration:1.50f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        
+        _profilePictureView.alpha= 1.0;
+        _profilePictureView.profileID = fbid;
+        self.UserName.frame = CGRectMake(9, 372, 302, 21);
+        
+    } completion:^(BOOL finished) {
+        
+    }];
+
+    
+    self.UserName.text=[NSString stringWithFormat:@"%@ %@",@"",fbname];
     
 }
 

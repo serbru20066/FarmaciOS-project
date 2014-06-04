@@ -14,6 +14,7 @@
   NSUserDefaults *standardDefaults ;
 }
 @property FBProfilePictureView *profilePictureView;
+@property (weak, nonatomic) IBOutlet UILabel *UserName;
 
 
 @end

@@ -26,6 +26,7 @@
 #import "RESideMenu.h"
 #import "UIViewController+RESideMenu.h"
 #import "RECommonFunctions.h"
+#import "FXBlurView.h"
 
 @interface RESideMenu ()
 
@@ -176,6 +177,9 @@
     });
     
     [self.view addSubview:self.backgroundImageView];
+
+    
+    
     [self.view addSubview:self.menuViewContainer];
     [self.view addSubview:self.contentViewContainer];
     
@@ -220,11 +224,18 @@
         [self.view addGestureRecognizer:panGestureRecognizer];
     }
     
+   
+    
+    FXBlurView *blurView = [[FXBlurView alloc]initWithFrame:CGRectMake(0, 0, 320, 568)];
+    blurView.blurRadius = 15.0f;
+    blurView.alpha = 0.99f;
+    [blurView setTintColor:[UIColor whiteColor]];
+    
+    [self.backgroundImageView addSubview:blurView];
+    
     UIImageView *imv=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo2.png"]];
     imv.frame =CGRectMake(20, 80, 200, 60);
     [self.backgroundImageView addSubview:imv];
-    
-    
     
     [self __updateContentViewShadow];
 }

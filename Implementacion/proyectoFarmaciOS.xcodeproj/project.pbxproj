@@ -92,14 +92,34 @@
 		2DA211F2193C2C1E004F462E /* menu_subtitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F0193C2C1E004F462E /* menu_subtitle.png */; };
 		2DA211F3193C2C1E004F462E /* menu_subtitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F1193C2C1E004F462E /* menu_subtitle@2x.png */; };
 		2DA211F5193C2CC2004F462E /* backgroundtable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DA211F4193C2CC2004F462E /* backgroundtable.jpg */; };
-		72A0EFBB1932706100998ADE /* FarmaciasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFB91932706100998ADE /* FarmaciasVC.m */; };
-		72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFBA1932706100998ADE /* FarmaciasVC.xib */; };
+		2DA88360193F934C00F741CC /* backgroundmarik.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8835F193F934C00F741CC /* backgroundmarik.png */; };
+		7265B66E193E407800FFF526 /* nywall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7265B66D193E407800FFF526 /* nywall.jpg */; };
+		7265B671193E40B100FFF526 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265B670193E40B100FFF526 /* FXBlurView.m */; };
+		7265B675193E439E00FFF526 /* Farmacias.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265B673193E439E00FFF526 /* Farmacias.m */; };
+		7265B676193E439E00FFF526 /* Farmacias.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7265B674193E439E00FFF526 /* Farmacias.xib */; };
+		727C523D193E8E30002CC5B6 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = 727C523C193E8E30002CC5B6 /* locate.png */; };
+		727C523F193E9019002CC5B6 /* fondo10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727C523E193E9019002CC5B6 /* fondo10.jpg */; };
+		727C5241193E9159002CC5B6 /* fondo11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727C5240193E9159002CC5B6 /* fondo11.jpg */; };
+		727C5243193E92D9002CC5B6 /* fondo12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 727C5242193E92D9002CC5B6 /* fondo12.jpeg */; };
+		727C5245193E9300002CC5B6 /* fondo13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727C5244193E92FF002CC5B6 /* fondo13.jpg */; };
+		727C5247193E93C8002CC5B6 /* fondo14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 727C5246193E93C8002CC5B6 /* fondo14.jpeg */; };
+		729BA899193E739300375ECF /* fondo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 729BA898193E739300375ECF /* fondo7.jpg */; };
+		729BA89B193E73D100375ECF /* fondo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 729BA89A193E73D100375ECF /* fondo8.jpg */; };
+		729BA89D193E744200375ECF /* fondo9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 729BA89C193E744200375ECF /* fondo9.jpeg */; };
 		72A0EFC21932807D00998ADE /* FarmaciasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A0EFC11932807D00998ADE /* FarmaciasCell.m */; };
 		72A0EFC41932808D00998ADE /* FarmaciasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0EFC31932808D00998ADE /* FarmaciasCell.xib */; };
+		72B485FA193E78ED001F76D9 /* btnBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B485F9193E78ED001F76D9 /* btnBack1.png */; };
+		72B485FC193E7964001F76D9 /* btnBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B485FB193E7964001F76D9 /* btnBack.png */; };
 		72C62E3E19355BF4001735AA /* Farmacia.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C62E3D19355BF4001735AA /* Farmacia.m */; };
+		72D8C5D8193E5A1E00DE94D8 /* fondo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72D8C5D7193E5A1D00DE94D8 /* fondo3.jpg */; };
+		72D8C5DA193E5AF200DE94D8 /* fondo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D8C5D9193E5AF200DE94D8 /* fondo4.png */; };
+		72D8C5DE193E6C9F00DE94D8 /* fondo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72D8C5DD193E6C9F00DE94D8 /* fondo5.jpg */; };
+		72D8C5E0193E6E2400DE94D8 /* fondo6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 72D8C5DF193E6E2400DE94D8 /* fondo6.jpeg */; };
 		72E3870A1939F251001C7858 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E387091939F251001C7858 /* mapa.png */; };
 		72E3870E1939F74D001C7858 /* MapaTodosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E3870C1939F74D001C7858 /* MapaTodosVC.m */; };
 		72E3870F1939F74D001C7858 /* MapaTodosVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E3870D1939F74D001C7858 /* MapaTodosVC.xib */; };
+		72F7CCB6193E58C6005F02E2 /* fondo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F7CCB5193E58C6005F02E2 /* fondo1.jpg */; };
+		72F7CCB8193E598B005F02E2 /* fondo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F7CCB7193E598B005F02E2 /* fondo2.jpg */; };
 		7F43D8D0193A4D74002558F6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F43D8CF193A4D74002558F6 /* back.png */; };
 		7FAFA4BE1930FBEC005DAF8C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */; };
 		7FE2BFEF19311C64003754B7 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2BFEE19311C64003754B7 /* background.jpg */; };
@@ -226,18 +246,39 @@
 		2DA211F0193C2C1E004F462E /* menu_subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_subtitle.png; sourceTree = "<group>"; };
 		2DA211F1193C2C1E004F462E /* menu_subtitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_subtitle@2x.png"; sourceTree = "<group>"; };
 		2DA211F4193C2CC2004F462E /* backgroundtable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundtable.jpg; sourceTree = "<group>"; };
-		72A0EFB81932706100998ADE /* FarmaciasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarmaciasVC.h; sourceTree = "<group>"; };
-		72A0EFB91932706100998ADE /* FarmaciasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarmaciasVC.m; sourceTree = "<group>"; };
-		72A0EFBA1932706100998ADE /* FarmaciasVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmaciasVC.xib; sourceTree = "<group>"; };
+		2DA8835F193F934C00F741CC /* backgroundmarik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundmarik.png; sourceTree = "<group>"; };
+		7265B66D193E407800FFF526 /* nywall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nywall.jpg; sourceTree = "<group>"; };
+		7265B66F193E40B100FFF526 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		7265B670193E40B100FFF526 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		7265B672193E439E00FFF526 /* Farmacias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmacias.h; sourceTree = "<group>"; };
+		7265B673193E439E00FFF526 /* Farmacias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmacias.m; sourceTree = "<group>"; };
+		7265B674193E439E00FFF526 /* Farmacias.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Farmacias.xib; sourceTree = "<group>"; };
+		727C523C193E8E30002CC5B6 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate.png; sourceTree = "<group>"; };
+		727C523E193E9019002CC5B6 /* fondo10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo10.jpg; sourceTree = "<group>"; };
+		727C5240193E9159002CC5B6 /* fondo11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo11.jpg; sourceTree = "<group>"; };
+		727C5242193E92D9002CC5B6 /* fondo12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo12.jpeg; sourceTree = "<group>"; };
+		727C5244193E92FF002CC5B6 /* fondo13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo13.jpg; sourceTree = "<group>"; };
+		727C5246193E93C8002CC5B6 /* fondo14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo14.jpeg; sourceTree = "<group>"; };
+		729BA898193E739300375ECF /* fondo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo7.jpg; sourceTree = "<group>"; };
+		729BA89A193E73D100375ECF /* fondo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo8.jpg; sourceTree = "<group>"; };
+		729BA89C193E744200375ECF /* fondo9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo9.jpeg; sourceTree = "<group>"; };
 		72A0EFC01932807D00998ADE /* FarmaciasCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarmaciasCell.h; sourceTree = "<group>"; };
 		72A0EFC11932807D00998ADE /* FarmaciasCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarmaciasCell.m; sourceTree = "<group>"; };
 		72A0EFC31932808D00998ADE /* FarmaciasCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmaciasCell.xib; sourceTree = "<group>"; };
+		72B485F9193E78ED001F76D9 /* btnBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBack1.png; sourceTree = "<group>"; };
+		72B485FB193E7964001F76D9 /* btnBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBack.png; sourceTree = "<group>"; };
 		72C62E3C19355BF4001735AA /* Farmacia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmacia.h; sourceTree = "<group>"; };
 		72C62E3D19355BF4001735AA /* Farmacia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmacia.m; sourceTree = "<group>"; };
+		72D8C5D7193E5A1D00DE94D8 /* fondo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo3.jpg; sourceTree = "<group>"; };
+		72D8C5D9193E5AF200DE94D8 /* fondo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo4.png; sourceTree = "<group>"; };
+		72D8C5DD193E6C9F00DE94D8 /* fondo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo5.jpg; sourceTree = "<group>"; };
+		72D8C5DF193E6E2400DE94D8 /* fondo6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo6.jpeg; sourceTree = "<group>"; };
 		72E387091939F251001C7858 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapa.png; path = ../mapa.png; sourceTree = "<group>"; };
 		72E3870B1939F74D001C7858 /* MapaTodosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaTodosVC.h; sourceTree = "<group>"; };
 		72E3870C1939F74D001C7858 /* MapaTodosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaTodosVC.m; sourceTree = "<group>"; };
 		72E3870D1939F74D001C7858 /* MapaTodosVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapaTodosVC.xib; sourceTree = "<group>"; };
+		72F7CCB5193E58C6005F02E2 /* fondo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo1.jpg; sourceTree = "<group>"; };
+		72F7CCB7193E598B005F02E2 /* fondo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo2.jpg; sourceTree = "<group>"; };
 		7F43D8CF193A4D74002558F6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		7FAFA4BC1930FBEC005DAF8C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7FAFA4BD1930FBEC005DAF8C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -273,6 +314,26 @@
 		1595EA3619240E2A0067BE62 = {
 			isa = PBXGroup;
 			children = (
+				727C5246193E93C8002CC5B6 /* fondo14.jpeg */,
+				727C5244193E92FF002CC5B6 /* fondo13.jpg */,
+				727C5242193E92D9002CC5B6 /* fondo12.jpeg */,
+				727C5240193E9159002CC5B6 /* fondo11.jpg */,
+				72B485F9193E78ED001F76D9 /* btnBack1.png */,
+				729BA89A193E73D100375ECF /* fondo8.jpg */,
+				729BA898193E739300375ECF /* fondo7.jpg */,
+				72B485FB193E7964001F76D9 /* btnBack.png */,
+				72D8C5DD193E6C9F00DE94D8 /* fondo5.jpg */,
+				729BA89C193E744200375ECF /* fondo9.jpeg */,
+				72F7CCB7193E598B005F02E2 /* fondo2.jpg */,
+				72D8C5D7193E5A1D00DE94D8 /* fondo3.jpg */,
+				72D8C5D9193E5AF200DE94D8 /* fondo4.png */,
+				72D8C5DF193E6E2400DE94D8 /* fondo6.jpeg */,
+				727C523C193E8E30002CC5B6 /* locate.png */,
+				727C523E193E9019002CC5B6 /* fondo10.jpg */,
+				7265B66F193E40B100FFF526 /* FXBlurView.h */,
+				7265B670193E40B100FFF526 /* FXBlurView.m */,
+				72F7CCB5193E58C6005F02E2 /* fondo1.jpg */,
+				7265B66D193E407800FFF526 /* nywall.jpg */,
 				72C62E3F1935604B001735AA /* Entidades */,
 				1595EAC119243A300067BE62 /* Extensiones */,
 				1595EA7E19241C3E0067BE62 /* Frameworks */,
@@ -350,6 +411,7 @@
 		1595EA7619241AC30067BE62 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				2DA8835F193F934C00F741CC /* backgroundmarik.png */,
 				2DA211F4193C2CC2004F462E /* backgroundtable.jpg */,
 				7F43D8CF193A4D74002558F6 /* back.png */,
 				72E387091939F251001C7858 /* mapa.png */,
@@ -399,13 +461,13 @@
 			isa = PBXGroup;
 			children = (
 				2329B8B319364078001DCCF7 /* MapVC.xib */,
+				7265B674193E439E00FFF526 /* Farmacias.xib */,
 				2329B8AA193632F3001DCCF7 /* LocalesCell.xib */,
 				72E3870D1939F74D001C7858 /* MapaTodosVC.xib */,
 				2329B8A419362EBE001DCCF7 /* LocalesVC.xib */,
 				72A0EFC31932808D00998ADE /* FarmaciasCell.xib */,
 				15C4976C193288180073578E /* InfoUsuarioViewController.xib */,
 				1595EA73192415D50067BE62 /* LoguinViewController.xib */,
-				72A0EFBA1932706100998ADE /* FarmaciasVC.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -413,6 +475,8 @@
 		1595EA7A19241ADD0067BE62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7265B672193E439E00FFF526 /* Farmacias.h */,
+				7265B673193E439E00FFF526 /* Farmacias.m */,
 				72E3870B1939F74D001C7858 /* MapaTodosVC.h */,
 				72E3870C1939F74D001C7858 /* MapaTodosVC.m */,
 				2329B8B119364078001DCCF7 /* MapVC.h */,
@@ -423,8 +487,6 @@
 				2329B8A319362EBE001DCCF7 /* LocalesVC.m */,
 				72A0EFC01932807D00998ADE /* FarmaciasCell.h */,
 				72A0EFC11932807D00998ADE /* FarmaciasCell.m */,
-				72A0EFB81932706100998ADE /* FarmaciasVC.h */,
-				72A0EFB91932706100998ADE /* FarmaciasVC.m */,
 				15C4976A193288180073578E /* InfoUsuarioViewController.h */,
 				15C4976B193288180073578E /* InfoUsuarioViewController.m */,
 				1595EA7B19241C290067BE62 /* DemoLeftMenuViewController.h */,
@@ -594,15 +656,22 @@
 			files = (
 				1595EACE19243E530067BE62 /* login_separator@2x.png in Resources */,
 				15A4A700192701D300B2BDAE /* LogoFarmacios.png in Resources */,
+				729BA899193E739300375ECF /* fondo7.jpg in Resources */,
 				1595EAC0192438A90067BE62 /* logoback.png in Resources */,
 				2329B8B019363D3C001DCCF7 /* backButton.png in Resources */,
+				727C523D193E8E30002CC5B6 /* locate.png in Resources */,
+				727C5241193E9159002CC5B6 /* fondo11.jpg in Resources */,
 				1595EACB19243E530067BE62 /* login_ingresar.png in Resources */,
+				727C5245193E9300002CC5B6 /* fondo13.jpg in Resources */,
 				1595EAD71924424D0067BE62 /* drugstoreicon.png in Resources */,
 				1595EA4D19240E2A0067BE62 /* InfoPlist.strings in Resources */,
+				72D8C5DA193E5AF200DE94D8 /* fondo4.png in Resources */,
 				1597EFF41931B21800C3A35F /* Logo2White.png in Resources */,
+				727C5243193E92D9002CC5B6 /* fondo12.jpeg in Resources */,
 				1595EABE192436E00067BE62 /* user_icon_default_filled@2x.png in Resources */,
 				2DA211F3193C2C1E004F462E /* menu_subtitle@2x.png in Resources */,
 				1595EAAF192433990067BE62 /* login_textbox.png in Resources */,
+				72D8C5E0193E6E2400DE94D8 /* fondo6.jpeg in Resources */,
 				7FE2BFEF19311C64003754B7 /* background.jpg in Resources */,
 				1597EFF01931AE4000C3A35F /* burbujasbackg.jpg in Resources */,
 				15AD4D06192D4A4100971947 /* logo con cuadro.png in Resources */,
@@ -610,21 +679,28 @@
 				2329B8A619362EBE001DCCF7 /* LocalesVC.xib in Resources */,
 				1595EAB9192436C90067BE62 /* password_icon.png in Resources */,
 				1595EADA1924424D0067BE62 /* logouticon.png in Resources */,
+				72F7CCB6193E58C6005F02E2 /* fondo1.jpg in Resources */,
 				15AD4D07192D4A4100971947 /* logosolo.png in Resources */,
 				15AD4CFA192D473100971947 /* drugs.png in Resources */,
 				1595EAD91924424D0067BE62 /* loginicon.png in Resources */,
 				15AD4D04192D4A4100971947 /* fondo negro splashscreen.png in Resources */,
+				729BA89D193E744200375ECF /* fondo9.jpeg in Resources */,
+				72B485FC193E7964001F76D9 /* btnBack.png in Resources */,
 				15C4977119328D950073578E /* general_top_button.png in Resources */,
 				1595EABD192436E00067BE62 /* user_icon_default_filled.png in Resources */,
 				1597EFEC1931AA2600C3A35F /* menuback.png in Resources */,
 				1595EAB0192433990067BE62 /* login_textbox@2x.png in Resources */,
 				72E3870A1939F251001C7858 /* mapa.png in Resources */,
+				727C523F193E9019002CC5B6 /* fondo10.jpg in Resources */,
 				15AD4D02192D4A4100971947 /* background.png in Resources */,
+				72B485FA193E78ED001F76D9 /* btnBack1.png in Resources */,
 				7F43D8D0193A4D74002558F6 /* back.png in Resources */,
 				1595EAB4192434910067BE62 /* general_bg@2x.png in Resources */,
 				1595EAB3192434910067BE62 /* general_bg.png in Resources */,
 				1595EADD192442E70067BE62 /* logout_icon.png in Resources */,
+				7265B66E193E407800FFF526 /* nywall.jpg in Resources */,
 				2DA211F5193C2CC2004F462E /* backgroundtable.jpg in Resources */,
+				72F7CCB8193E598B005F02E2 /* fondo2.jpg in Resources */,
 				15C4976E193288180073578E /* InfoUsuarioViewController.xib in Resources */,
 				1597EFF21931AEB400C3A35F /* burbujasmenuback.jpg in Resources */,
 				1595EAAA192426B90067BE62 /* menuBackground@2x.jpg in Resources */,
@@ -632,25 +708,30 @@
 				1595EADE192442E70067BE62 /* logout_icon@2x.png in Resources */,
 				1595EACC19243E530067BE62 /* login_ingresar@2x.png in Resources */,
 				15AD4D05192D4A4100971947 /* ingresarrr.png in Resources */,
+				2DA88360193F934C00F741CC /* backgroundmarik.png in Resources */,
 				2DA211F2193C2C1E004F462E /* menu_subtitle.png in Resources */,
 				1597EFEE1931AD3600C3A35F /* textureBack.jpg in Resources */,
 				72E3870F1939F74D001C7858 /* MapaTodosVC.xib in Resources */,
-				72A0EFBC1932706100998ADE /* FarmaciasVC.xib in Resources */,
 				1595EACD19243E530067BE62 /* login_separator.png in Resources */,
 				1595EAD81924424D0067BE62 /* farmacoicon.png in Resources */,
 				1595EAA9192426B90067BE62 /* menuBackground.jpg in Resources */,
 				2329B8AB193632F3001DCCF7 /* LocalesCell.xib in Resources */,
 				1595EABA192436C90067BE62 /* password_icon@2x.png in Resources */,
 				15AD4D08192D4A4100971947 /* screenlaunchebrunoOriginal.png in Resources */,
+				72D8C5DE193E6C9F00DE94D8 /* fondo5.jpg in Resources */,
 				15AD4D03192D4A4100971947 /* cuadro solo.png in Resources */,
 				15AD4CF8192D452900971947 /* logout.png in Resources */,
 				15AFC0AE192590B800B1488D /* facebookicon@2x.png in Resources */,
 				1595EA5519240E2A0067BE62 /* Images.xcassets in Resources */,
 				1595EAD2192442250067BE62 /* Drug-icon.png in Resources */,
 				15C4977219328D950073578E /* general_top_button@2x.png in Resources */,
+				729BA89B193E73D100375ECF /* fondo8.jpg in Resources */,
+				727C5247193E93C8002CC5B6 /* fondo14.jpeg in Resources */,
 				72A0EFC41932808D00998ADE /* FarmaciasCell.xib in Resources */,
+				72D8C5D8193E5A1E00DE94D8 /* fondo3.jpg in Resources */,
 				1595EAC619243D450067BE62 /* logo.jpg in Resources */,
 				1597EFEA1931A86600C3A35F /* Logo2.png in Resources */,
+				7265B676193E439E00FFF526 /* Farmacias.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,8 +757,9 @@
 				1595EA5319240E2A0067BE62 /* AppDelegate.m in Sources */,
 				1595EA9A19241C4D0067BE62 /* AFHTTPRequestOperationManager.m in Sources */,
 				1595EA9E19241C4D0067BE62 /* AFURLConnectionOperation.m in Sources */,
-				72A0EFBB1932706100998ADE /* FarmaciasVC.m in Sources */,
+				7265B675193E439E00FFF526 /* Farmacias.m in Sources */,
 				1595EA9919241C4D0067BE62 /* AFHTTPRequestOperation.m in Sources */,
+				7265B671193E40B100FFF526 /* FXBlurView.m in Sources */,
 				15C4976D193288180073578E /* InfoUsuarioViewController.m in Sources */,
 				1595EA4F19240E2A0067BE62 /* main.m in Sources */,
 				72C62E3E19355BF4001735AA /* Farmacia.m in Sources */,
@@ -813,6 +895,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,
@@ -834,6 +917,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/bruno/Documents/FacebookSDK,

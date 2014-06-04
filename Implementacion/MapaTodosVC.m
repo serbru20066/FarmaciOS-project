@@ -32,7 +32,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    
+    UIImage *buttonImage = [UIImage imageNamed:@"btnBack.png"];
+    UIButton *aButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [aButton setImage:buttonImage forState:UIControlStateNormal];
+    aButton.frame = CGRectMake(0.0,0.0,20,20);
+    [aButton addTarget:self action:@selector(regresar)forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:aButton];
+    self.navigationItem.leftBarButtonItem = backButton;
+    self.navigationItem.title = @"Ubicaciones";
     
     //SPinner
     
@@ -51,7 +58,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)regresar:(id)sender {
+- (void)regresar {
     
     [self.navigationController popViewControllerAnimated:YES];
 }
